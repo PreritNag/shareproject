@@ -1,0 +1,11 @@
+.AllSchearchdisplays {
+    display: inline-flex;
+    background-color: white;
+    width: 22rem;
+    border-radius: 0.2rem;
+    height:44rem;
+    overflow: hidden; /* Prevents both horizontal and vertical scrolling */
+    margin: 6px;
+
+    /* Disable scrolling */
+}

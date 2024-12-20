@@ -1,0 +1,116 @@
+/* Sidebar container styles */
+.Sidebar {
+  display: inline-flex;
+  height: 102vh; /* Ensure sidebar takes full screen height */
+}
+
+/* Container styles for the sidebar */
+.container {
+  background-color: rgba(0, 0, 0, 0.71); /* bg-black */
+  height: 100vh; /* Full screen height */
+  padding: 1px; /* Spacing inside the sidebar */
+  position: relative; /* For absolute positioning of toggler */
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Stack the profile and menu items vertically */
+  justify-content: space-between; /* Ensure space is distributed evenly */
+  transition-duration: 300ms; 
+  padding-bottom: 0px;
+  padding-left: 10px;/* Smooth transition for opening and closing */
+}
+
+/* Toggle button (right chevron) styles */
+.image {
+  position: absolute; /* Position absolute to place on the right */
+  cursor: pointer; /* Clickable cursor */
+  right: 12px; /* Positioned slightly outside the sidebar */
+  top: 80px; /* Positioning from top */
+  width: 28px; /* Button size */
+  height: 28px;
+  border-radius: 50%; /* Circle shape */
+  transition: transform 0.3s ease; 
+  font-size: 1.5rem;/* Smooth transition for rotation */
+}
+
+/* Profile section */
+.profile {
+  display: flex;
+  gap: 10px; /* Small gap between profile icon and name */
+  align-items: center;
+  justify-content: center; /* Center the profile horizontally */
+  margin-bottom: 39px; /* Give some space at the bottom */
+}
+
+/* Profile icon styles */
+.profile-icon {
+  padding-top: 20px;
+  color: white; /* Profile icon color */
+  font-size: 1.8rem;
+  
+}
+
+/* Profile name text styles */
+.name {
+  color: white; /* Text color */
+  font-weight: 500; /* Medium font weight */
+  font-size: 1.25rem; /* Text size */
+  transition-duration: 200ms;
+  padding-top: 30px; /* Smooth transition for text visibility */
+}
+
+/* Hidden name when sidebar is collapsed */
+.scale-0 {
+  display: none; /* Hides the name */
+}
+
+/* Menu styles */
+.menu {
+  display: flex; /* Use flexbox to arrange menu items horizontally */
+  flex-direction: column; /* Stack items vertically */
+  justify-content: space-evenly; /* Evenly space items */
+  flex-grow: 1; /* Take up remaining space */
+  padding-top: 2px; /* Padding top for the menu */
+  margin-top: 2px;
+  background-color: black;
+  padding-left: 0px; /* Margin between profile and menu */
+}
+
+/* Menu item styles */
+.li-style {
+  display: flex; /* Flexbox for menu items */
+  padding: 0.5rem; /* Padding around menu items */
+  cursor: pointer; /* Clickable cursor */
+  color: #d1d5db; /* Light gray text color */
+  font-size: 0.875rem; /* Smaller font size */
+  gap: 1rem; /* Gap between icon and text */
+  align-items: center; /* Center content vertically */
+  transition: all 200ms ease; /* Smooth transitions for hover effect */
+}
+
+/* Menu item hover effect */
+.li-style:hover {
+ 
+  background-color: #f3f4f6;
+  border-radius: 1rem; /* Hover background color */
+}
+
+/* Active menu item styles */
+.li-active {
+  background-color: black; /* Active item background */
+}
+
+/* Menu item text visibility */
+.li-hidden {
+  display: none; /* Hides the text */
+}
+
+/* Menu item text visibility when sidebar is open */
+.li-text {
+  display: inline-block; /* Ensure text is visible */
+}
+
+/* Adjust for collapsed menu */
+.menu-icon {
+  font-size: 2rem; /* Adjust icon size */
+  color: white; /* White icon color */
+}
+

@@ -1,0 +1,93 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SignIn-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+.signup-header{
+    display: flex;
+    justify-content: center;
+    color: white
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    background-color: rgb(84, 59, 186);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(24, 132, 57, 0.1);
+    width: 500px;
+}
+.name1{
+    background-color: transparent;
+    width: 15rem;
+    height: 2.5rem;
+    border-radius: .5rem;
+}
+.input::placeholder{
+    color: #f2f2f2;
+}
+.email{
+    background-color: transparent;
+    width: 15rem;
+    height: 2.5rem;
+    border-radius: .5rem;
+}
+.phone-number{
+    background-color: transparent;
+    width: 15rem;
+    height: 2.5rem;
+    border-radius: .5rem;
+}
+.password{
+    background-color: transparent;
+    width: 15rem;
+    height: 2.5rem;
+    border-radius: .5rem;
+}
+.balance{
+    background-color: transparent;
+    width: 15rem;
+    height: 2.5rem;
+    border-radius: .5rem;
+}
+.checkbox {
+    -webkit-appearance: none; /* Disable default styling in WebKit browsers */
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background-color: #f2f2f2;
+    border: 2px solid bisque;
+    border-radius: 8px; /* Apply rounded corners */
+    position: relative;
+    
+  }
+  
+  .checkbox:checked::before {
+    content: '✔'; /* Custom check mark */
+    position: absolute;
+    top: 2px;
+    left: 4px;
+    font-size: 18px;
+  }
+.label1{
+    color: #f2f2f2;
+    position: relative;
+    top: -10px;
+}
+.label2{
+    color: #f2f2f2;
+    position: relative;
+    top: -10px;
+}

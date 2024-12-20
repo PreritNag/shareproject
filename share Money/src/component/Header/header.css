@@ -1,0 +1,133 @@
+.header{
+display: flex;
+justify-content:space-evenly;
+align-items: center;
+height: 4.5rem;
+flex-wrap: nowrap;
+gap: 1rem;
+overflow: hidden;
+}
+.search-bar {
+    display: inline-flex;
+    align-items: center;
+}
+
+.navbarbtns{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: transparent;
+    transition: all 0.3s;
+    gap: 1rem;
+}
+.navbarbtn{
+    background: transparent;
+    color: #f5f5f5; 
+    padding: 0.45rem .45rem; 
+}
+.navbarbtn{
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(154, 175, 34, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(53, 35, 255, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(233, 236, 220, 0.75);
+}
+.navbarbtn:hover{
+    cursor: pointer;
+    color: greenyellow;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(134, 245, 212, 0.5);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(149, 197, 27, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(13, 184, 36, 0.75);
+}
+.Search{
+    height: 2.3rem;
+    width: 15rem;
+    border-radius: 1rem;
+    border-top-left-radius: 0rem;
+    border-bottom-left-radius: 0rem;
+    border: 1px solid #ccc;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(83, 224, 147, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(215, 214, 225, 0.97);
+    box-shadow: 0px 0px 5px 0px rgba(233, 236, 220, 0.75);
+    transition: all 0.3s;
+}
+.Search:hover{
+    cursor: pointer;
+    color: greenyellow;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(252, 255, 236, 0.5);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(221, 237, 182, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(208, 71, 229, 0.626);
+}
+.search-button{
+     height: 2.5rem; /*Match the height of the input field */
+     border-radius: 1rem;
+    border-top-right-radius: 0rem;
+    border-bottom-right-radius: 0rem;
+    border: 1px solid #ccc; /* Match the border style */
+     border-left: none; /* Remove overlapping border */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem; /* Adjust for inner spacing */
+    background-color: #f5f5f5; /* Optional styling */
+    cursor: pointer;
+    background-color: purple;
+    border: none;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(154, 175, 34, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(53, 35, 255, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(233, 236, 220, 0.75);
+    transition: all 0.3s;
+}
+.search-button:hover{
+    cursor: pointer;
+    color: white;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(134, 245, 212, 0.5);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(149, 197, 27, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(13, 184, 36, 0.75);
+    
+}
+.Login:hover{
+    cursor: pointer;
+    background-color: rgb(70, 228, 8);
+    transition: all 0.3s;
+    color:white;
+    border-radius: 1rem;
+}
+.Search::placeholder{
+    color: white;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-weight:500;
+}
+/* Container that holds the logo */
+
+  /* Logo container */
+/* Ensure that the logo container (a tag) hides overflow */
+.logo {
+    width: 100px; /* Set the desired width */
+    height: 100px; /* Set a fixed height */
+    display: flex;  /* Use flex to center the logo */
+    justify-content: center; /* Center the logo horizontally */
+    align-items: center; /* Center the logo vertically */
+    overflow: hidden; /* Hide any overflow of the image */
+    border-radius: 1rem; /* Optional: rounded corners for the container */
+  }
+  
+  /* Style for the image */
+  .logo img {
+    width: 100%; /* Ensure the image fits within the container width */
+    height: 100%; /* Ensure the image fits within the container height */
+    object-fit: contain; /* Ensure the image is scaled to fit without distortion */
+  }
+  
+  /* Logo hover effect */
+  .logo:hover {
+    cursor: pointer;
+    color: greenyellow;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(252, 255, 236, 0.5);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(221, 237, 182, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(208, 71, 229, 0.626);
+    transition: all 0.3s;
+  }
+  

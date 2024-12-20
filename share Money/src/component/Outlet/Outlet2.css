@@ -1,0 +1,25 @@
+.page2 {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;  /* Ensure it takes full viewport height */
+}
+
+.heading1~ {
+  /* margin: 10px 0; */
+  display: flex;
+  text-align: center;
+  color: black;
+}
+.heading2e {
+  color: grey;
+  text-align: center;
+}
+.carousel-container {
+  margin-top: 0.5rem; /* Add space above the carousel if needed */
+}
+h1{
+  display: flex;
+}
