@@ -1,0 +1,5005 @@
+{
+  "balance": 5229.23,
+  "stocks": [
+    {
+      "symbol": "CSCO",
+      "quantity": 69,
+      "currentPrice": 2218.24
+    },
+    {
+      "symbol": "TSLA",
+      "quantity": 71,
+      "currentPrice": 4032.0
+    },
+    {
+      "symbol": "NFLX",
+      "quantity": 52,
+      "currentPrice": 584.6
+    },
+    {
+      "symbol": "TSLA",
+      "quantity": 33,
+      "currentPrice": 4185.61
+    },
+    {
+      "symbol": "INTC",
+      "quantity": 27,
+      "currentPrice": 2343.57
+    },
+    {
+      "symbol": "IBM",
+      "quantity": 16,
+      "currentPrice": 580.98
+    },
+    {
+      "symbol": "MSFT",
+      "quantity": 92,
+      "currentPrice": 1991.75
+    },
+    {
+      "symbol": "AMZN",
+      "quantity": 82,
+      "currentPrice": 1831.6
+    },
+    {
+      "symbol": "BAC",
+      "quantity": 18,
+      "currentPrice": 3399.6
+    },
+    {
+      "symbol": "MSFT",
+      "quantity": 3,
+      "currentPrice": 4603.83
+    },
+    {
+      "symbol": "KO",
+      "quantity": 72,
+      "currentPrice": 3063.61
+    },
+    {
+      "symbol": "FB",
+      "quantity": 6,
+      "currentPrice": 3940.21
+    },
+    {
+      "symbol": "CSCO",
+      "quantity": 88,
+      "currentPrice": 722.94
+    },
+    {
+      "symbol": "CSCO",
+      "quantity": 1,
+      "currentPrice": 4450.15
+    },
+    {
+      "symbol": "DIS",
+      "quantity": 15,
+      "currentPrice": 833.13
+    },
+    {
+      "symbol": "C",
+      "quantity": 24,
+      "currentPrice": 2411.92
+    },
+    {
+      "symbol": "XOM",
+      "quantity": 63,
+      "currentPrice": 4193.57
+    },
+    {
+      "symbol": "BAC",
+      "quantity": 82,
+      "currentPrice": 4579.42
+    },
+    {
+      "symbol": "T",
+      "quantity": 90,
+      "currentPrice": 1661.7
+    },
+    {
+      "symbol": "AMD",
+      "quantity": 31,
+      "currentPrice": 3264.24
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 33,
+      "currentPrice": 3011.13
+    },
+    {
+      "symbol": "KO",
+      "quantity": 89,
+      "currentPrice": 4447.31
+    },
+    {
+      "symbol": "TSLA",
+      "quantity": 34,
+      "currentPrice": 2042.13
+    },
+    {
+      "symbol": "KO",
+      "quantity": 7,
+      "currentPrice": 4569.78
+    },
+    {
+      "symbol": "WMT",
+      "quantity": 11,
+      "currentPrice": 4107.7
+    },
+    {
+      "symbol": "WMT",
+      "quantity": 40,
+      "currentPrice": 3465.24
+    },
+    {
+      "symbol": "T",
+      "quantity": 61,
+      "currentPrice": 4435.51
+    },
+    {
+      "symbol": "V",
+      "quantity": 99,
+      "currentPrice": 776.25
+    },
+    {
+      "symbol": "ADBE",
+      "quantity": 62,
+      "currentPrice": 682.56
+    },
+    {
+      "symbol": "AAPL",
+      "quantity": 64,
+      "currentPrice": 4637.39
+    },
+    {
+      "symbol": "MA",
+      "quantity": 32,
+      "currentPrice": 4535.76
+    },
+    {
+      "symbol": "KO",
+      "quantity": 4,
+      "currentPrice": 4642.02
+    },
+    {
+      "symbol": "JPM",
+      "quantity": 80,
+      "currentPrice": 2334.9
+    },
+    {
+      "symbol": "ORCL",
+      "quantity": 18,
+      "currentPrice": 1842.77
+    },
+    {
+      "symbol": "FB",
+      "quantity": 34,
+      "currentPrice": 3996.09
+    },
+    {
+      "symbol": "MA",
+      "quantity": 14,
+      "currentPrice": 3808.69
+    },
+    {
+      "symbol": "WMT",
+      "quantity": 24,
+      "currentPrice": 2004.17
+    },
+    {
+      "symbol": "FB",
+      "quantity": 74,
+      "currentPrice": 651.44
+    },
+    {
+      "symbol": "BA",
+      "quantity": 34,
+      "currentPrice": 710.42
+    },
+    {
+      "symbol": "GOOGL",
+      "quantity": 31,
+      "currentPrice": 1861.72
+    },
+    {
+      "symbol": "T",
+      "quantity": 35,
+      "currentPrice": 4153.64
+    },
+    {
+      "symbol": "INTC",
+      "quantity": 18,
+      "currentPrice": 4382.09
+    },
+    {
+      "symbol": "MA",
+      "quantity": 45,
+      "currentPrice": 3773.91
+    },
+    {
+      "symbol": "V",
+      "quantity": 81,
+      "currentPrice": 1059.52
+    },
+    {
+      "symbol": "NKE",
+      "quantity": 39,
+      "currentPrice": 3336.35
+    },
+    {
+      "symbol": "KO",
+      "quantity": 6,
+      "currentPrice": 2509.91
+    },
+    {
+      "symbol": "CSCO",
+      "quantity": 67,
+      "currentPrice": 4733.57
+    },
+    {
+      "symbol": "FB",
+      "quantity": 15,
+      "currentPrice": 804.14
+    },
+    {
+      "symbol": "BAC",
+      "quantity": 73,
+      "currentPrice": 2378.91
+    },
+    {
+      "symbol": "AMD",
+      "quantity": 83,
+      "currentPrice": 4804.94
+    },
+    {
+      "symbol": "TSLA",
+      "quantity": 23,
+      "currentPrice": 3825.05
+    },
+    {
+      "symbol": "BAC",
+      "quantity": 21,
+      "currentPrice": 2735.21
+    },
+    {
+      "symbol": "AMZN",
+      "quantity": 44,
+      "currentPrice": 4481.78
+    },
+    {
+      "symbol": "BAC",
+      "quantity": 23,
+      "currentPrice": 4156.99
+    },
+    {
+      "symbol": "JPM",
+      "quantity": 29,
+      "currentPrice": 2837.46
+    },
+    {
+      "symbol": "AAPL",
+      "quantity": 29,
+      "currentPrice": 1352.95
+    },
+    {
+      "symbol": "AAPL",
+      "quantity": 87,
+      "currentPrice": 2987.53
+    },
+    {
+      "symbol": "AAPL",
+      "quantity": 75,
+      "currentPrice": 2756.11
+    },
+    {
+      "symbol": "NVDA",
+      "quantity": 27,
+      "currentPrice": 3054.92
+    },
+    {
+      "symbol": "KO",
+      "quantity": 22,
+      "currentPrice": 4784.16
+    },
+    {
+      "symbol": "TSLA",
+      "quantity": 83,
+      "currentPrice": 1236.21
+    },
+    {
+      "symbol": "ORCL",
+      "quantity": 44,
+      "currentPrice": 245.46
+    },
+    {
+      "symbol": "JPM",
+      "quantity": 21,
+      "currentPrice": 413.8
+    },
+    {
+      "symbol": "NVDA",
+      "quantity": 39,
+      "currentPrice": 4305.18
+    },
+    {
+      "symbol": "CVX",
+      "quantity": 73,
+      "currentPrice": 4939.03
+    },
+    {
+      "symbol": "PFE",
+      "quantity": 73,
+      "currentPrice": 939.93
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 80,
+      "currentPrice": 4196.61
+    },
+    {
+      "symbol": "TMUS",
+      "quantity": 92,
+      "currentPrice": 4809.85
+    },
+    {
+      "symbol": "KO",
+      "quantity": 8,
+      "currentPrice": 3777.83
+    },
+    {
+      "symbol": "WMT",
+      "quantity": 33,
+      "currentPrice": 4968.24
+    },
+    {
+      "symbol": "MA",
+      "quantity": 20,
+      "currentPrice": 1789.36
+    },
+    {
+      "symbol": "BAC",
+      "quantity": 99,
+      "currentPrice": 1048.07
+    },
+    {
+      "symbol": "FB",
+      "quantity": 89,
+      "currentPrice": 3747.64
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 87,
+      "currentPrice": 749.19
+    },
+    {
+      "symbol": "FB",
+      "quantity": 78,
+      "currentPrice": 1533.54
+    },
+    {
+      "symbol": "CVX",
+      "quantity": 66,
+      "currentPrice": 2840.17
+    },
+    {
+      "symbol": "TSLA",
+      "quantity": 48,
+      "currentPrice": 2207.34
+    },
+    {
+      "symbol": "TSLA",
+      "quantity": 18,
+      "currentPrice": 1962.31
+    },
+    {
+      "symbol": "BAC",
+      "quantity": 27,
+      "currentPrice": 4630.59
+    },
+    {
+      "symbol": "TSLA",
+      "quantity": 31,
+      "currentPrice": 2460.24
+    },
+    {
+      "symbol": "MA",
+      "quantity": 10,
+      "currentPrice": 3352.39
+    },
+    {
+      "symbol": "TMUS",
+      "quantity": 59,
+      "currentPrice": 3936.84
+    },
+    {
+      "symbol": "GOOGL",
+      "quantity": 77,
+      "currentPrice": 2780.6
+    },
+    {
+      "symbol": "KO",
+      "quantity": 86,
+      "currentPrice": 4414.56
+    },
+    {
+      "symbol": "AMD",
+      "quantity": 20,
+      "currentPrice": 1258.94
+    },
+    {
+      "symbol": "XOM",
+      "quantity": 88,
+      "currentPrice": 101.05
+    },
+    {
+      "symbol": "BAC",
+      "quantity": 54,
+      "currentPrice": 4981.46
+    },
+    {
+      "symbol": "AMD",
+      "quantity": 67,
+      "currentPrice": 2245.74
+    },
+    {
+      "symbol": "NKE",
+      "quantity": 6,
+      "currentPrice": 2958.41
+    },
+    {
+      "symbol": "ORCL",
+      "quantity": 98,
+      "currentPrice": 2425.71
+    },
+    {
+      "symbol": "TSLA",
+      "quantity": 71,
+      "currentPrice": 531.99
+    },
+    {
+      "symbol": "CSCO",
+      "quantity": 45,
+      "currentPrice": 3065.28
+    },
+    {
+      "symbol": "MA",
+      "quantity": 4,
+      "currentPrice": 2068.0
+    },
+    {
+      "symbol": "NFLX",
+      "quantity": 30,
+      "currentPrice": 3768.94
+    },
+    {
+      "symbol": "KO",
+      "quantity": 17,
+      "currentPrice": 2509.88
+    },
+    {
+      "symbol": "WMT",
+      "quantity": 91,
+      "currentPrice": 1270.48
+    },
+    {
+      "symbol": "MSFT",
+      "quantity": 69,
+      "currentPrice": 480.42
+    },
+    {
+      "symbol": "NFLX",
+      "quantity": 92,
+      "currentPrice": 764.6
+    },
+    {
+      "symbol": "MSFT",
+      "quantity": 69,
+      "currentPrice": 3516.66
+    },
+    {
+      "symbol": "AAPL",
+      "quantity": 96,
+      "currentPrice": 4519.53
+    },
+    {
+      "symbol": "ADBE",
+      "quantity": 88,
+      "currentPrice": 592.03
+    },
+    {
+      "symbol": "ORCL",
+      "quantity": 100,
+      "currentPrice": 1309.56
+    },
+    {
+      "symbol": "MA",
+      "quantity": 50,
+      "currentPrice": 660.27
+    },
+    {
+      "symbol": "ORCL",
+      "quantity": 94,
+      "currentPrice": 1809.1
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 14,
+      "currentPrice": 1258.71
+    },
+    {
+      "symbol": "AMD",
+      "quantity": 74,
+      "currentPrice": 4649.91
+    },
+    {
+      "symbol": "C",
+      "quantity": 68,
+      "currentPrice": 3267.51
+    },
+    {
+      "symbol": "AMZN",
+      "quantity": 57,
+      "currentPrice": 3439.39
+    },
+    {
+      "symbol": "MSFT",
+      "quantity": 33,
+      "currentPrice": 4294.29
+    },
+    {
+      "symbol": "V",
+      "quantity": 96,
+      "currentPrice": 3213.92
+    },
+    {
+      "symbol": "AMD",
+      "quantity": 86,
+      "currentPrice": 4367.23
+    },
+    {
+      "symbol": "MA",
+      "quantity": 81,
+      "currentPrice": 4685.92
+    },
+    {
+      "symbol": "KO",
+      "quantity": 70,
+      "currentPrice": 2624.94
+    },
+    {
+      "symbol": "AMZN",
+      "quantity": 3,
+      "currentPrice": 2925.17
+    },
+    {
+      "symbol": "CVX",
+      "quantity": 21,
+      "currentPrice": 1191.72
+    },
+    {
+      "symbol": "PFE",
+      "quantity": 6,
+      "currentPrice": 1619.79
+    },
+    {
+      "symbol": "INTC",
+      "quantity": 92,
+      "currentPrice": 530.13
+    },
+    {
+      "symbol": "NKE",
+      "quantity": 32,
+      "currentPrice": 2907.55
+    },
+    {
+      "symbol": "BA",
+      "quantity": 48,
+      "currentPrice": 2587.35
+    },
+    {
+      "symbol": "MA",
+      "quantity": 92,
+      "currentPrice": 2670.71
+    },
+    {
+      "symbol": "CVX",
+      "quantity": 49,
+      "currentPrice": 185.59
+    },
+    {
+      "symbol": "C",
+      "quantity": 13,
+      "currentPrice": 2275.22
+    },
+    {
+      "symbol": "V",
+      "quantity": 60,
+      "currentPrice": 3089.01
+    },
+    {
+      "symbol": "NVDA",
+      "quantity": 14,
+      "currentPrice": 4512.03
+    },
+    {
+      "symbol": "NKE",
+      "quantity": 79,
+      "currentPrice": 4938.79
+    },
+    {
+      "symbol": "NKE",
+      "quantity": 82,
+      "currentPrice": 4101.86
+    },
+    {
+      "symbol": "GOOGL",
+      "quantity": 6,
+      "currentPrice": 4862.17
+    },
+    {
+      "symbol": "AMD",
+      "quantity": 77,
+      "currentPrice": 308.26
+    },
+    {
+      "symbol": "NFLX",
+      "quantity": 36,
+      "currentPrice": 2609.01
+    },
+    {
+      "symbol": "MSFT",
+      "quantity": 59,
+      "currentPrice": 3940.21
+    },
+    {
+      "symbol": "NVDA",
+      "quantity": 43,
+      "currentPrice": 3208.64
+    },
+    {
+      "symbol": "AMD",
+      "quantity": 17,
+      "currentPrice": 884.66
+    },
+    {
+      "symbol": "TMUS",
+      "quantity": 27,
+      "currentPrice": 3164.59
+    },
+    {
+      "symbol": "V",
+      "quantity": 96,
+      "currentPrice": 1370.42
+    },
+    {
+      "symbol": "V",
+      "quantity": 99,
+      "currentPrice": 884.6
+    },
+    {
+      "symbol": "IBM",
+      "quantity": 14,
+      "currentPrice": 533.81
+    },
+    {
+      "symbol": "MSFT",
+      "quantity": 69,
+      "currentPrice": 4815.5
+    },
+    {
+      "symbol": "AMZN",
+      "quantity": 51,
+      "currentPrice": 2367.62
+    },
+    {
+      "symbol": "IBM",
+      "quantity": 51,
+      "currentPrice": 943.66
+    },
+    {
+      "symbol": "DIS",
+      "quantity": 62,
+      "currentPrice": 467.52
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 36,
+      "currentPrice": 651.82
+    },
+    {
+      "symbol": "ORCL",
+      "quantity": 64,
+      "currentPrice": 1465.49
+    },
+    {
+      "symbol": "CSCO",
+      "quantity": 84,
+      "currentPrice": 494.76
+    },
+    {
+      "symbol": "INTC",
+      "quantity": 6,
+      "currentPrice": 4193.67
+    },
+    {
+      "symbol": "ORCL",
+      "quantity": 58,
+      "currentPrice": 2081.85
+    },
+    {
+      "symbol": "WMT",
+      "quantity": 15,
+      "currentPrice": 365.27
+    },
+    {
+      "symbol": "DIS",
+      "quantity": 76,
+      "currentPrice": 2605.27
+    },
+    {
+      "symbol": "AMZN",
+      "quantity": 26,
+      "currentPrice": 4989.42
+    },
+    {
+      "symbol": "C",
+      "quantity": 96,
+      "currentPrice": 1459.49
+    },
+    {
+      "symbol": "NVDA",
+      "quantity": 56,
+      "currentPrice": 253.69
+    },
+    {
+      "symbol": "FB",
+      "quantity": 41,
+      "currentPrice": 850.65
+    },
+    {
+      "symbol": "FB",
+      "quantity": 5,
+      "currentPrice": 1167.63
+    },
+    {
+      "symbol": "XOM",
+      "quantity": 51,
+      "currentPrice": 1669.94
+    },
+    {
+      "symbol": "NFLX",
+      "quantity": 34,
+      "currentPrice": 680.27
+    },
+    {
+      "symbol": "JPM",
+      "quantity": 95,
+      "currentPrice": 1941.68
+    },
+    {
+      "symbol": "GOOGL",
+      "quantity": 70,
+      "currentPrice": 3840.29
+    },
+    {
+      "symbol": "NVDA",
+      "quantity": 7,
+      "currentPrice": 377.18
+    },
+    {
+      "symbol": "ADBE",
+      "quantity": 51,
+      "currentPrice": 2080.23
+    },
+    {
+      "symbol": "XOM",
+      "quantity": 100,
+      "currentPrice": 3395.05
+    },
+    {
+      "symbol": "BA",
+      "quantity": 81,
+      "currentPrice": 1110.45
+    },
+    {
+      "symbol": "AAPL",
+      "quantity": 33,
+      "currentPrice": 3700.81
+    },
+    {
+      "symbol": "BA",
+      "quantity": 28,
+      "currentPrice": 3209.34
+    },
+    {
+      "symbol": "JPM",
+      "quantity": 52,
+      "currentPrice": 2850.02
+    },
+    {
+      "symbol": "GOOGL",
+      "quantity": 73,
+      "currentPrice": 1429.27
+    },
+    {
+      "symbol": "XOM",
+      "quantity": 35,
+      "currentPrice": 2199.62
+    },
+    {
+      "symbol": "T",
+      "quantity": 16,
+      "currentPrice": 2925.77
+    },
+    {
+      "symbol": "AAPL",
+      "quantity": 77,
+      "currentPrice": 4359.77
+    },
+    {
+      "symbol": "MSFT",
+      "quantity": 73,
+      "currentPrice": 3060.22
+    },
+    {
+      "symbol": "MSFT",
+      "quantity": 28,
+      "currentPrice": 2852.19
+    },
+    {
+      "symbol": "AMZN",
+      "quantity": 100,
+      "currentPrice": 23.06
+    },
+    {
+      "symbol": "AMZN",
+      "quantity": 96,
+      "currentPrice": 3769.93
+    },
+    {
+      "symbol": "PFE",
+      "quantity": 9,
+      "currentPrice": 2065.28
+    },
+    {
+      "symbol": "MA",
+      "quantity": 36,
+      "currentPrice": 2112.08
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 92,
+      "currentPrice": 1814.22
+    },
+    {
+      "symbol": "MSFT",
+      "quantity": 93,
+      "currentPrice": 170.55
+    },
+    {
+      "symbol": "AMD",
+      "quantity": 81,
+      "currentPrice": 4036.29
+    },
+    {
+      "symbol": "ORCL",
+      "quantity": 39,
+      "currentPrice": 2803.81
+    },
+    {
+      "symbol": "AMZN",
+      "quantity": 79,
+      "currentPrice": 3553.26
+    },
+    {
+      "symbol": "PFE",
+      "quantity": 73,
+      "currentPrice": 3064.2
+    },
+    {
+      "symbol": "GOOGL",
+      "quantity": 4,
+      "currentPrice": 2660.89
+    },
+    {
+      "symbol": "GOOGL",
+      "quantity": 23,
+      "currentPrice": 1015.62
+    },
+    {
+      "symbol": "TSLA",
+      "quantity": 43,
+      "currentPrice": 2939.22
+    },
+    {
+      "symbol": "NVDA",
+      "quantity": 51,
+      "currentPrice": 4091.96
+    },
+    {
+      "symbol": "NKE",
+      "quantity": 26,
+      "currentPrice": 734.2
+    },
+    {
+      "symbol": "MSFT",
+      "quantity": 92,
+      "currentPrice": 2497.4
+    },
+    {
+      "symbol": "CSCO",
+      "quantity": 55,
+      "currentPrice": 143.76
+    },
+    {
+      "symbol": "BAC",
+      "quantity": 54,
+      "currentPrice": 544.51
+    },
+    {
+      "symbol": "KO",
+      "quantity": 61,
+      "currentPrice": 1472.97
+    },
+    {
+      "symbol": "C",
+      "quantity": 85,
+      "currentPrice": 1831.36
+    },
+    {
+      "symbol": "MA",
+      "quantity": 100,
+      "currentPrice": 4229.7
+    },
+    {
+      "symbol": "NKE",
+      "quantity": 62,
+      "currentPrice": 2672.51
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 83,
+      "currentPrice": 1301.2
+    },
+    {
+      "symbol": "INTC",
+      "quantity": 6,
+      "currentPrice": 47.03
+    },
+    {
+      "symbol": "AMD",
+      "quantity": 29,
+      "currentPrice": 1135.37
+    },
+    {
+      "symbol": "ORCL",
+      "quantity": 22,
+      "currentPrice": 2497.54
+    },
+    {
+      "symbol": "XOM",
+      "quantity": 35,
+      "currentPrice": 2170.13
+    },
+    {
+      "symbol": "AMZN",
+      "quantity": 62,
+      "currentPrice": 814.55
+    },
+    {
+      "symbol": "MSFT",
+      "quantity": 98,
+      "currentPrice": 109.83
+    },
+    {
+      "symbol": "AAPL",
+      "quantity": 40,
+      "currentPrice": 3386.39
+    },
+    {
+      "symbol": "CSCO",
+      "quantity": 59,
+      "currentPrice": 1120.73
+    },
+    {
+      "symbol": "ADBE",
+      "quantity": 71,
+      "currentPrice": 2740.86
+    },
+    {
+      "symbol": "V",
+      "quantity": 19,
+      "currentPrice": 3025.88
+    },
+    {
+      "symbol": "NFLX",
+      "quantity": 7,
+      "currentPrice": 870.71
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 39,
+      "currentPrice": 1090.13
+    },
+    {
+      "symbol": "AMZN",
+      "quantity": 64,
+      "currentPrice": 1690.28
+    },
+    {
+      "symbol": "FB",
+      "quantity": 83,
+      "currentPrice": 2806.43
+    },
+    {
+      "symbol": "PFE",
+      "quantity": 43,
+      "currentPrice": 4347.2
+    },
+    {
+      "symbol": "CSCO",
+      "quantity": 14,
+      "currentPrice": 3761.09
+    },
+    {
+      "symbol": "AAPL",
+      "quantity": 87,
+      "currentPrice": 4609.87
+    },
+    {
+      "symbol": "NFLX",
+      "quantity": 38,
+      "currentPrice": 198.01
+    },
+    {
+      "symbol": "KO",
+      "quantity": 28,
+      "currentPrice": 607.57
+    },
+    {
+      "symbol": "V",
+      "quantity": 93,
+      "currentPrice": 3702.64
+    },
+    {
+      "symbol": "XOM",
+      "quantity": 89,
+      "currentPrice": 458.13
+    },
+    {
+      "symbol": "TMUS",
+      "quantity": 29,
+      "currentPrice": 3150.8
+    },
+    {
+      "symbol": "TMUS",
+      "quantity": 90,
+      "currentPrice": 4183.08
+    },
+    {
+      "symbol": "MSFT",
+      "quantity": 52,
+      "currentPrice": 957.45
+    },
+    {
+      "symbol": "MA",
+      "quantity": 26,
+      "currentPrice": 1349.84
+    },
+    {
+      "symbol": "BAC",
+      "quantity": 51,
+      "currentPrice": 456.66
+    },
+    {
+      "symbol": "AAPL",
+      "quantity": 12,
+      "currentPrice": 4657.75
+    },
+    {
+      "symbol": "ORCL",
+      "quantity": 40,
+      "currentPrice": 3999.91
+    },
+    {
+      "symbol": "ORCL",
+      "quantity": 81,
+      "currentPrice": 3890.88
+    },
+    {
+      "symbol": "AMD",
+      "quantity": 85,
+      "currentPrice": 2750.15
+    },
+    {
+      "symbol": "JPM",
+      "quantity": 21,
+      "currentPrice": 4000.62
+    },
+    {
+      "symbol": "AAPL",
+      "quantity": 54,
+      "currentPrice": 2956.54
+    },
+    {
+      "symbol": "ORCL",
+      "quantity": 100,
+      "currentPrice": 3974.06
+    },
+    {
+      "symbol": "INTC",
+      "quantity": 8,
+      "currentPrice": 3654.45
+    },
+    {
+      "symbol": "V",
+      "quantity": 18,
+      "currentPrice": 638.52
+    },
+    {
+      "symbol": "FB",
+      "quantity": 56,
+      "currentPrice": 4115.87
+    },
+    {
+      "symbol": "MSFT",
+      "quantity": 39,
+      "currentPrice": 1112.99
+    },
+    {
+      "symbol": "IBM",
+      "quantity": 29,
+      "currentPrice": 4877.89
+    },
+    {
+      "symbol": "T",
+      "quantity": 36,
+      "currentPrice": 2564.87
+    },
+    {
+      "symbol": "NVDA",
+      "quantity": 45,
+      "currentPrice": 3638.32
+    },
+    {
+      "symbol": "BA",
+      "quantity": 64,
+      "currentPrice": 3108.35
+    },
+    {
+      "symbol": "MA",
+      "quantity": 20,
+      "currentPrice": 3943.27
+    },
+    {
+      "symbol": "AAPL",
+      "quantity": 12,
+      "currentPrice": 1717.72
+    },
+    {
+      "symbol": "V",
+      "quantity": 36,
+      "currentPrice": 875.73
+    },
+    {
+      "symbol": "JPM",
+      "quantity": 1,
+      "currentPrice": 1249.39
+    },
+    {
+      "symbol": "AMD",
+      "quantity": 61,
+      "currentPrice": 3186.18
+    },
+    {
+      "symbol": "V",
+      "quantity": 34,
+      "currentPrice": 3749.11
+    },
+    {
+      "symbol": "CSCO",
+      "quantity": 19,
+      "currentPrice": 3281.3
+    },
+    {
+      "symbol": "BA",
+      "quantity": 30,
+      "currentPrice": 56.14
+    },
+    {
+      "symbol": "XOM",
+      "quantity": 6,
+      "currentPrice": 300.56
+    },
+    {
+      "symbol": "MA",
+      "quantity": 84,
+      "currentPrice": 1579.79
+    },
+    {
+      "symbol": "INTC",
+      "quantity": 7,
+      "currentPrice": 933.72
+    },
+    {
+      "symbol": "NVDA",
+      "quantity": 40,
+      "currentPrice": 3982.45
+    },
+    {
+      "symbol": "BAC",
+      "quantity": 31,
+      "currentPrice": 1441.42
+    },
+    {
+      "symbol": "ORCL",
+      "quantity": 33,
+      "currentPrice": 4520.75
+    },
+    {
+      "symbol": "DIS",
+      "quantity": 54,
+      "currentPrice": 2520.75
+    },
+    {
+      "symbol": "GOOGL",
+      "quantity": 99,
+      "currentPrice": 960.49
+    },
+    {
+      "symbol": "DIS",
+      "quantity": 26,
+      "currentPrice": 1623.91
+    },
+    {
+      "symbol": "AAPL",
+      "quantity": 80,
+      "currentPrice": 1804.99
+    },
+    {
+      "symbol": "JPM",
+      "quantity": 21,
+      "currentPrice": 1166.78
+    },
+    {
+      "symbol": "GOOGL",
+      "quantity": 57,
+      "currentPrice": 691.42
+    },
+    {
+      "symbol": "DIS",
+      "quantity": 82,
+      "currentPrice": 3169.04
+    },
+    {
+      "symbol": "NFLX",
+      "quantity": 8,
+      "currentPrice": 4363.23
+    },
+    {
+      "symbol": "XOM",
+      "quantity": 13,
+      "currentPrice": 1875.51
+    },
+    {
+      "symbol": "TSLA",
+      "quantity": 99,
+      "currentPrice": 3942.23
+    },
+    {
+      "symbol": "WMT",
+      "quantity": 82,
+      "currentPrice": 4891.22
+    },
+    {
+      "symbol": "DIS",
+      "quantity": 28,
+      "currentPrice": 3078.27
+    },
+    {
+      "symbol": "V",
+      "quantity": 16,
+      "currentPrice": 1203.64
+    },
+    {
+      "symbol": "AMZN",
+      "quantity": 64,
+      "currentPrice": 824.69
+    },
+    {
+      "symbol": "BAC",
+      "quantity": 45,
+      "currentPrice": 1161.16
+    },
+    {
+      "symbol": "ADBE",
+      "quantity": 95,
+      "currentPrice": 4696.3
+    },
+    {
+      "symbol": "AAPL",
+      "quantity": 8,
+      "currentPrice": 3367.17
+    },
+    {
+      "symbol": "GOOGL",
+      "quantity": 42,
+      "currentPrice": 2464.68
+    },
+    {
+      "symbol": "BAC",
+      "quantity": 89,
+      "currentPrice": 3024.16
+    },
+    {
+      "symbol": "MA",
+      "quantity": 36,
+      "currentPrice": 480.17
+    },
+    {
+      "symbol": "KO",
+      "quantity": 22,
+      "currentPrice": 3656.56
+    },
+    {
+      "symbol": "T",
+      "quantity": 24,
+      "currentPrice": 881.98
+    },
+    {
+      "symbol": "NKE",
+      "quantity": 49,
+      "currentPrice": 4135.19
+    },
+    {
+      "symbol": "BAC",
+      "quantity": 9,
+      "currentPrice": 1284.9
+    },
+    {
+      "symbol": "AMZN",
+      "quantity": 46,
+      "currentPrice": 314.74
+    },
+    {
+      "symbol": "AMZN",
+      "quantity": 57,
+      "currentPrice": 3736.78
+    },
+    {
+      "symbol": "GOOGL",
+      "quantity": 73,
+      "currentPrice": 2072.45
+    },
+    {
+      "symbol": "NFLX",
+      "quantity": 91,
+      "currentPrice": 3063.15
+    },
+    {
+      "symbol": "XOM",
+      "quantity": 89,
+      "currentPrice": 2536.48
+    },
+    {
+      "symbol": "CSCO",
+      "quantity": 100,
+      "currentPrice": 3193.63
+    },
+    {
+      "symbol": "ORCL",
+      "quantity": 44,
+      "currentPrice": 3730.37
+    },
+    {
+      "symbol": "MA",
+      "quantity": 3,
+      "currentPrice": 3467.03
+    },
+    {
+      "symbol": "INTC",
+      "quantity": 46,
+      "currentPrice": 2700.22
+    },
+    {
+      "symbol": "ADBE",
+      "quantity": 19,
+      "currentPrice": 3585.5
+    },
+    {
+      "symbol": "MSFT",
+      "quantity": 27,
+      "currentPrice": 4922.86
+    },
+    {
+      "symbol": "MA",
+      "quantity": 67,
+      "currentPrice": 1731.24
+    },
+    {
+      "symbol": "NFLX",
+      "quantity": 13,
+      "currentPrice": 4865.04
+    },
+    {
+      "symbol": "MSFT",
+      "quantity": 76,
+      "currentPrice": 4857.27
+    },
+    {
+      "symbol": "CVX",
+      "quantity": 72,
+      "currentPrice": 4332.48
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 1,
+      "currentPrice": 3150.32
+    },
+    {
+      "symbol": "BA",
+      "quantity": 9,
+      "currentPrice": 4482.23
+    },
+    {
+      "symbol": "NKE",
+      "quantity": 70,
+      "currentPrice": 3581.59
+    },
+    {
+      "symbol": "NFLX",
+      "quantity": 4,
+      "currentPrice": 1386.83
+    },
+    {
+      "symbol": "WMT",
+      "quantity": 94,
+      "currentPrice": 4427.11
+    },
+    {
+      "symbol": "BA",
+      "quantity": 84,
+      "currentPrice": 3246.99
+    },
+    {
+      "symbol": "BA",
+      "quantity": 100,
+      "currentPrice": 3133.91
+    },
+    {
+      "symbol": "C",
+      "quantity": 25,
+      "currentPrice": 1341.92
+    },
+    {
+      "symbol": "GOOGL",
+      "quantity": 5,
+      "currentPrice": 393.73
+    },
+    {
+      "symbol": "TSLA",
+      "quantity": 62,
+      "currentPrice": 96.59
+    },
+    {
+      "symbol": "AAPL",
+      "quantity": 26,
+      "currentPrice": 183.58
+    },
+    {
+      "symbol": "GOOGL",
+      "quantity": 95,
+      "currentPrice": 3202.56
+    },
+    {
+      "symbol": "AAPL",
+      "quantity": 82,
+      "currentPrice": 1878.76
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 19,
+      "currentPrice": 2164.22
+    },
+    {
+      "symbol": "C",
+      "quantity": 48,
+      "currentPrice": 2377.69
+    },
+    {
+      "symbol": "AMD",
+      "quantity": 58,
+      "currentPrice": 711.89
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 27,
+      "currentPrice": 2744.66
+    },
+    {
+      "symbol": "V",
+      "quantity": 25,
+      "currentPrice": 4718.58
+    },
+    {
+      "symbol": "TMUS",
+      "quantity": 65,
+      "currentPrice": 156.2
+    },
+    {
+      "symbol": "JPM",
+      "quantity": 71,
+      "currentPrice": 1647.73
+    },
+    {
+      "symbol": "C",
+      "quantity": 45,
+      "currentPrice": 4551.01
+    },
+    {
+      "symbol": "PFE",
+      "quantity": 10,
+      "currentPrice": 487.09
+    },
+    {
+      "symbol": "NVDA",
+      "quantity": 76,
+      "currentPrice": 2833.76
+    },
+    {
+      "symbol": "FB",
+      "quantity": 70,
+      "currentPrice": 3103.88
+    },
+    {
+      "symbol": "DIS",
+      "quantity": 62,
+      "currentPrice": 2566.2
+    },
+    {
+      "symbol": "C",
+      "quantity": 15,
+      "currentPrice": 977.59
+    },
+    {
+      "symbol": "NVDA",
+      "quantity": 24,
+      "currentPrice": 2378.72
+    },
+    {
+      "symbol": "TSLA",
+      "quantity": 12,
+      "currentPrice": 628.34
+    },
+    {
+      "symbol": "AMZN",
+      "quantity": 84,
+      "currentPrice": 1281.63
+    },
+    {
+      "symbol": "MSFT",
+      "quantity": 74,
+      "currentPrice": 2133.43
+    },
+    {
+      "symbol": "CVX",
+      "quantity": 22,
+      "currentPrice": 2610.49
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 51,
+      "currentPrice": 1119.89
+    },
+    {
+      "symbol": "CSCO",
+      "quantity": 39,
+      "currentPrice": 2752.3
+    },
+    {
+      "symbol": "TSLA",
+      "quantity": 78,
+      "currentPrice": 678.69
+    },
+    {
+      "symbol": "AMD",
+      "quantity": 33,
+      "currentPrice": 3068.52
+    },
+    {
+      "symbol": "BAC",
+      "quantity": 41,
+      "currentPrice": 1799.65
+    },
+    {
+      "symbol": "NVDA",
+      "quantity": 67,
+      "currentPrice": 1975.94
+    },
+    {
+      "symbol": "T",
+      "quantity": 27,
+      "currentPrice": 417.76
+    },
+    {
+      "symbol": "BA",
+      "quantity": 77,
+      "currentPrice": 4321.99
+    },
+    {
+      "symbol": "IBM",
+      "quantity": 87,
+      "currentPrice": 4115.44
+    },
+    {
+      "symbol": "NFLX",
+      "quantity": 21,
+      "currentPrice": 2536.91
+    },
+    {
+      "symbol": "AMD",
+      "quantity": 91,
+      "currentPrice": 1197.22
+    },
+    {
+      "symbol": "KO",
+      "quantity": 34,
+      "currentPrice": 1354.52
+    },
+    {
+      "symbol": "C",
+      "quantity": 78,
+      "currentPrice": 4093.21
+    },
+    {
+      "symbol": "WMT",
+      "quantity": 24,
+      "currentPrice": 2886.87
+    },
+    {
+      "symbol": "TMUS",
+      "quantity": 14,
+      "currentPrice": 4450.75
+    },
+    {
+      "symbol": "INTC",
+      "quantity": 53,
+      "currentPrice": 3064.24
+    },
+    {
+      "symbol": "DIS",
+      "quantity": 44,
+      "currentPrice": 527.08
+    },
+    {
+      "symbol": "AAPL",
+      "quantity": 80,
+      "currentPrice": 3743.97
+    },
+    {
+      "symbol": "MA",
+      "quantity": 70,
+      "currentPrice": 110.01
+    },
+    {
+      "symbol": "NKE",
+      "quantity": 96,
+      "currentPrice": 3695.1
+    },
+    {
+      "symbol": "XOM",
+      "quantity": 97,
+      "currentPrice": 3074.19
+    },
+    {
+      "symbol": "NKE",
+      "quantity": 31,
+      "currentPrice": 2230.03
+    },
+    {
+      "symbol": "IBM",
+      "quantity": 60,
+      "currentPrice": 2443.24
+    },
+    {
+      "symbol": "AAPL",
+      "quantity": 30,
+      "currentPrice": 2376.97
+    },
+    {
+      "symbol": "MA",
+      "quantity": 2,
+      "currentPrice": 3167.77
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 75,
+      "currentPrice": 168.29
+    },
+    {
+      "symbol": "CVX",
+      "quantity": 7,
+      "currentPrice": 3576.27
+    },
+    {
+      "symbol": "ORCL",
+      "quantity": 83,
+      "currentPrice": 3654.05
+    },
+    {
+      "symbol": "NKE",
+      "quantity": 28,
+      "currentPrice": 158.49
+    },
+    {
+      "symbol": "NVDA",
+      "quantity": 66,
+      "currentPrice": 3558.47
+    },
+    {
+      "symbol": "DIS",
+      "quantity": 52,
+      "currentPrice": 4438.27
+    },
+    {
+      "symbol": "C",
+      "quantity": 4,
+      "currentPrice": 1918.18
+    },
+    {
+      "symbol": "T",
+      "quantity": 11,
+      "currentPrice": 617.27
+    },
+    {
+      "symbol": "AAPL",
+      "quantity": 38,
+      "currentPrice": 1205.52
+    },
+    {
+      "symbol": "ADBE",
+      "quantity": 77,
+      "currentPrice": 4026.3
+    },
+    {
+      "symbol": "XOM",
+      "quantity": 68,
+      "currentPrice": 4372.55
+    },
+    {
+      "symbol": "CSCO",
+      "quantity": 67,
+      "currentPrice": 1144.16
+    },
+    {
+      "symbol": "ORCL",
+      "quantity": 80,
+      "currentPrice": 828.19
+    },
+    {
+      "symbol": "MA",
+      "quantity": 85,
+      "currentPrice": 1516.3
+    },
+    {
+      "symbol": "INTC",
+      "quantity": 36,
+      "currentPrice": 826.37
+    },
+    {
+      "symbol": "AMZN",
+      "quantity": 46,
+      "currentPrice": 2826.52
+    },
+    {
+      "symbol": "ADBE",
+      "quantity": 39,
+      "currentPrice": 4880.41
+    },
+    {
+      "symbol": "KO",
+      "quantity": 44,
+      "currentPrice": 3136.63
+    },
+    {
+      "symbol": "TSLA",
+      "quantity": 21,
+      "currentPrice": 4779.32
+    },
+    {
+      "symbol": "C",
+      "quantity": 53,
+      "currentPrice": 1544.24
+    },
+    {
+      "symbol": "ADBE",
+      "quantity": 99,
+      "currentPrice": 1397.67
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 1,
+      "currentPrice": 1179.12
+    },
+    {
+      "symbol": "AMD",
+      "quantity": 47,
+      "currentPrice": 4647.67
+    },
+    {
+      "symbol": "XOM",
+      "quantity": 53,
+      "currentPrice": 658.82
+    },
+    {
+      "symbol": "ADBE",
+      "quantity": 45,
+      "currentPrice": 615.24
+    },
+    {
+      "symbol": "NVDA",
+      "quantity": 24,
+      "currentPrice": 2964.46
+    },
+    {
+      "symbol": "MSFT",
+      "quantity": 32,
+      "currentPrice": 4106.26
+    },
+    {
+      "symbol": "IBM",
+      "quantity": 80,
+      "currentPrice": 4542.03
+    },
+    {
+      "symbol": "C",
+      "quantity": 17,
+      "currentPrice": 2997.69
+    },
+    {
+      "symbol": "MA",
+      "quantity": 81,
+      "currentPrice": 2771.4
+    },
+    {
+      "symbol": "NVDA",
+      "quantity": 50,
+      "currentPrice": 1669.65
+    },
+    {
+      "symbol": "FB",
+      "quantity": 56,
+      "currentPrice": 4684.72
+    },
+    {
+      "symbol": "TMUS",
+      "quantity": 93,
+      "currentPrice": 829.84
+    },
+    {
+      "symbol": "MA",
+      "quantity": 20,
+      "currentPrice": 290.43
+    },
+    {
+      "symbol": "IBM",
+      "quantity": 99,
+      "currentPrice": 2238.82
+    },
+    {
+      "symbol": "MA",
+      "quantity": 4,
+      "currentPrice": 574.96
+    },
+    {
+      "symbol": "C",
+      "quantity": 35,
+      "currentPrice": 3529.89
+    },
+    {
+      "symbol": "WMT",
+      "quantity": 81,
+      "currentPrice": 3538.46
+    },
+    {
+      "symbol": "JPM",
+      "quantity": 70,
+      "currentPrice": 655.92
+    },
+    {
+      "symbol": "MSFT",
+      "quantity": 24,
+      "currentPrice": 4183.13
+    },
+    {
+      "symbol": "KO",
+      "quantity": 35,
+      "currentPrice": 3318.53
+    },
+    {
+      "symbol": "BAC",
+      "quantity": 59,
+      "currentPrice": 1955.38
+    },
+    {
+      "symbol": "BA",
+      "quantity": 17,
+      "currentPrice": 453.88
+    },
+    {
+      "symbol": "T",
+      "quantity": 74,
+      "currentPrice": 349.1
+    },
+    {
+      "symbol": "TMUS",
+      "quantity": 5,
+      "currentPrice": 4229.8
+    },
+    {
+      "symbol": "TSLA",
+      "quantity": 59,
+      "currentPrice": 3437.19
+    },
+    {
+      "symbol": "XOM",
+      "quantity": 21,
+      "currentPrice": 3002.44
+    },
+    {
+      "symbol": "FB",
+      "quantity": 16,
+      "currentPrice": 2580.16
+    },
+    {
+      "symbol": "ORCL",
+      "quantity": 100,
+      "currentPrice": 3819.1
+    },
+    {
+      "symbol": "NKE",
+      "quantity": 61,
+      "currentPrice": 4119.85
+    },
+    {
+      "symbol": "PFE",
+      "quantity": 88,
+      "currentPrice": 872.0
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 21,
+      "currentPrice": 4052.08
+    },
+    {
+      "symbol": "NFLX",
+      "quantity": 1,
+      "currentPrice": 2638.74
+    },
+    {
+      "symbol": "KO",
+      "quantity": 98,
+      "currentPrice": 2483.86
+    },
+    {
+      "symbol": "JPM",
+      "quantity": 32,
+      "currentPrice": 3080.57
+    },
+    {
+      "symbol": "CSCO",
+      "quantity": 98,
+      "currentPrice": 3272.42
+    },
+    {
+      "symbol": "PFE",
+      "quantity": 40,
+      "currentPrice": 1635.84
+    },
+    {
+      "symbol": "XOM",
+      "quantity": 91,
+      "currentPrice": 4269.04
+    },
+    {
+      "symbol": "C",
+      "quantity": 11,
+      "currentPrice": 4119.53
+    },
+    {
+      "symbol": "TSLA",
+      "quantity": 91,
+      "currentPrice": 951.74
+    },
+    {
+      "symbol": "KO",
+      "quantity": 59,
+      "currentPrice": 571.12
+    },
+    {
+      "symbol": "AAPL",
+      "quantity": 82,
+      "currentPrice": 3795.35
+    },
+    {
+      "symbol": "NFLX",
+      "quantity": 40,
+      "currentPrice": 589.79
+    },
+    {
+      "symbol": "AMD",
+      "quantity": 100,
+      "currentPrice": 3678.46
+    },
+    {
+      "symbol": "INTC",
+      "quantity": 14,
+      "currentPrice": 4309.92
+    },
+    {
+      "symbol": "IBM",
+      "quantity": 34,
+      "currentPrice": 1876.03
+    },
+    {
+      "symbol": "GOOGL",
+      "quantity": 66,
+      "currentPrice": 2083.07
+    },
+    {
+      "symbol": "CVX",
+      "quantity": 90,
+      "currentPrice": 1277.89
+    },
+    {
+      "symbol": "PFE",
+      "quantity": 20,
+      "currentPrice": 1862.07
+    },
+    {
+      "symbol": "GOOGL",
+      "quantity": 30,
+      "currentPrice": 2889.58
+    },
+    {
+      "symbol": "AMD",
+      "quantity": 11,
+      "currentPrice": 322.95
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 46,
+      "currentPrice": 3604.49
+    },
+    {
+      "symbol": "AMD",
+      "quantity": 98,
+      "currentPrice": 3256.16
+    },
+    {
+      "symbol": "BA",
+      "quantity": 43,
+      "currentPrice": 2846.61
+    },
+    {
+      "symbol": "INTC",
+      "quantity": 56,
+      "currentPrice": 136.79
+    },
+    {
+      "symbol": "CSCO",
+      "quantity": 1,
+      "currentPrice": 2509.23
+    },
+    {
+      "symbol": "AMZN",
+      "quantity": 66,
+      "currentPrice": 4523.15
+    },
+    {
+      "symbol": "XOM",
+      "quantity": 59,
+      "currentPrice": 537.23
+    },
+    {
+      "symbol": "CVX",
+      "quantity": 24,
+      "currentPrice": 126.85
+    },
+    {
+      "symbol": "DIS",
+      "quantity": 87,
+      "currentPrice": 782.31
+    },
+    {
+      "symbol": "ORCL",
+      "quantity": 57,
+      "currentPrice": 3416.66
+    },
+    {
+      "symbol": "XOM",
+      "quantity": 14,
+      "currentPrice": 2949.88
+    },
+    {
+      "symbol": "AMD",
+      "quantity": 55,
+      "currentPrice": 2863.97
+    },
+    {
+      "symbol": "NVDA",
+      "quantity": 38,
+      "currentPrice": 4978.84
+    },
+    {
+      "symbol": "NVDA",
+      "quantity": 72,
+      "currentPrice": 2327.35
+    },
+    {
+      "symbol": "WMT",
+      "quantity": 8,
+      "currentPrice": 2031.46
+    },
+    {
+      "symbol": "AAPL",
+      "quantity": 75,
+      "currentPrice": 4355.87
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 1,
+      "currentPrice": 550.35
+    },
+    {
+      "symbol": "CSCO",
+      "quantity": 21,
+      "currentPrice": 154.06
+    },
+    {
+      "symbol": "NVDA",
+      "quantity": 88,
+      "currentPrice": 1692.38
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 85,
+      "currentPrice": 3575.83
+    },
+    {
+      "symbol": "ORCL",
+      "quantity": 68,
+      "currentPrice": 3436.88
+    },
+    {
+      "symbol": "AAPL",
+      "quantity": 23,
+      "currentPrice": 1846.12
+    },
+    {
+      "symbol": "AMD",
+      "quantity": 19,
+      "currentPrice": 3381.55
+    },
+    {
+      "symbol": "GOOGL",
+      "quantity": 47,
+      "currentPrice": 4239.27
+    },
+    {
+      "symbol": "CVX",
+      "quantity": 15,
+      "currentPrice": 1940.29
+    },
+    {
+      "symbol": "BA",
+      "quantity": 50,
+      "currentPrice": 1892.1
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 37,
+      "currentPrice": 107.74
+    },
+    {
+      "symbol": "DIS",
+      "quantity": 87,
+      "currentPrice": 2347.69
+    },
+    {
+      "symbol": "XOM",
+      "quantity": 27,
+      "currentPrice": 340.73
+    },
+    {
+      "symbol": "C",
+      "quantity": 67,
+      "currentPrice": 2749.46
+    },
+    {
+      "symbol": "CVX",
+      "quantity": 12,
+      "currentPrice": 55.85
+    },
+    {
+      "symbol": "ORCL",
+      "quantity": 19,
+      "currentPrice": 3785.1
+    },
+    {
+      "symbol": "DIS",
+      "quantity": 69,
+      "currentPrice": 164.78
+    },
+    {
+      "symbol": "NKE",
+      "quantity": 2,
+      "currentPrice": 4489.54
+    },
+    {
+      "symbol": "C",
+      "quantity": 90,
+      "currentPrice": 4458.2
+    },
+    {
+      "symbol": "CVX",
+      "quantity": 68,
+      "currentPrice": 1045.65
+    },
+    {
+      "symbol": "INTC",
+      "quantity": 73,
+      "currentPrice": 233.11
+    },
+    {
+      "symbol": "AMD",
+      "quantity": 2,
+      "currentPrice": 2677.98
+    },
+    {
+      "symbol": "NVDA",
+      "quantity": 90,
+      "currentPrice": 2417.66
+    },
+    {
+      "symbol": "MSFT",
+      "quantity": 12,
+      "currentPrice": 4181.93
+    },
+    {
+      "symbol": "MA",
+      "quantity": 30,
+      "currentPrice": 107.83
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 28,
+      "currentPrice": 4131.58
+    },
+    {
+      "symbol": "CSCO",
+      "quantity": 23,
+      "currentPrice": 4820.36
+    },
+    {
+      "symbol": "CVX",
+      "quantity": 91,
+      "currentPrice": 1115.22
+    },
+    {
+      "symbol": "V",
+      "quantity": 64,
+      "currentPrice": 465.58
+    },
+    {
+      "symbol": "AMZN",
+      "quantity": 76,
+      "currentPrice": 907.13
+    },
+    {
+      "symbol": "V",
+      "quantity": 90,
+      "currentPrice": 846.67
+    },
+    {
+      "symbol": "V",
+      "quantity": 12,
+      "currentPrice": 1978.83
+    },
+    {
+      "symbol": "AMD",
+      "quantity": 21,
+      "currentPrice": 4458.7
+    },
+    {
+      "symbol": "JPM",
+      "quantity": 47,
+      "currentPrice": 817.46
+    },
+    {
+      "symbol": "IBM",
+      "quantity": 17,
+      "currentPrice": 4979.88
+    },
+    {
+      "symbol": "FB",
+      "quantity": 61,
+      "currentPrice": 1997.37
+    },
+    {
+      "symbol": "ORCL",
+      "quantity": 33,
+      "currentPrice": 107.04
+    },
+    {
+      "symbol": "MSFT",
+      "quantity": 91,
+      "currentPrice": 4108.92
+    },
+    {
+      "symbol": "ADBE",
+      "quantity": 91,
+      "currentPrice": 3368.07
+    },
+    {
+      "symbol": "MA",
+      "quantity": 33,
+      "currentPrice": 1050.98
+    },
+    {
+      "symbol": "NVDA",
+      "quantity": 62,
+      "currentPrice": 4604.77
+    },
+    {
+      "symbol": "MA",
+      "quantity": 14,
+      "currentPrice": 1122.21
+    },
+    {
+      "symbol": "NFLX",
+      "quantity": 63,
+      "currentPrice": 2355.51
+    },
+    {
+      "symbol": "C",
+      "quantity": 46,
+      "currentPrice": 2916.7
+    },
+    {
+      "symbol": "IBM",
+      "quantity": 68,
+      "currentPrice": 4900.04
+    },
+    {
+      "symbol": "JPM",
+      "quantity": 88,
+      "currentPrice": 1096.73
+    },
+    {
+      "symbol": "FB",
+      "quantity": 41,
+      "currentPrice": 2692.39
+    },
+    {
+      "symbol": "C",
+      "quantity": 29,
+      "currentPrice": 1693.3
+    },
+    {
+      "symbol": "AMD",
+      "quantity": 90,
+      "currentPrice": 259.92
+    },
+    {
+      "symbol": "GOOGL",
+      "quantity": 67,
+      "currentPrice": 518.03
+    },
+    {
+      "symbol": "AMD",
+      "quantity": 7,
+      "currentPrice": 3097.95
+    },
+    {
+      "symbol": "C",
+      "quantity": 11,
+      "currentPrice": 4391.64
+    },
+    {
+      "symbol": "AMZN",
+      "quantity": 16,
+      "currentPrice": 3849.68
+    },
+    {
+      "symbol": "PFE",
+      "quantity": 21,
+      "currentPrice": 3096.32
+    },
+    {
+      "symbol": "AMD",
+      "quantity": 49,
+      "currentPrice": 1705.26
+    },
+    {
+      "symbol": "AMZN",
+      "quantity": 78,
+      "currentPrice": 810.82
+    },
+    {
+      "symbol": "DIS",
+      "quantity": 93,
+      "currentPrice": 1826.54
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 56,
+      "currentPrice": 4768.9
+    },
+    {
+      "symbol": "FB",
+      "quantity": 50,
+      "currentPrice": 4187.08
+    },
+    {
+      "symbol": "T",
+      "quantity": 78,
+      "currentPrice": 4431.81
+    },
+    {
+      "symbol": "ORCL",
+      "quantity": 53,
+      "currentPrice": 2525.14
+    },
+    {
+      "symbol": "DIS",
+      "quantity": 16,
+      "currentPrice": 4080.92
+    },
+    {
+      "symbol": "XOM",
+      "quantity": 25,
+      "currentPrice": 1669.59
+    },
+    {
+      "symbol": "DIS",
+      "quantity": 52,
+      "currentPrice": 4921.68
+    },
+    {
+      "symbol": "PFE",
+      "quantity": 77,
+      "currentPrice": 2887.67
+    },
+    {
+      "symbol": "T",
+      "quantity": 11,
+      "currentPrice": 2412.13
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 7,
+      "currentPrice": 2716.51
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 14,
+      "currentPrice": 3600.8
+    },
+    {
+      "symbol": "MSFT",
+      "quantity": 96,
+      "currentPrice": 683.45
+    },
+    {
+      "symbol": "JPM",
+      "quantity": 100,
+      "currentPrice": 3267.79
+    },
+    {
+      "symbol": "JPM",
+      "quantity": 27,
+      "currentPrice": 1903.72
+    },
+    {
+      "symbol": "JPM",
+      "quantity": 6,
+      "currentPrice": 2841.87
+    },
+    {
+      "symbol": "ORCL",
+      "quantity": 80,
+      "currentPrice": 4504.46
+    },
+    {
+      "symbol": "ADBE",
+      "quantity": 41,
+      "currentPrice": 213.84
+    },
+    {
+      "symbol": "T",
+      "quantity": 80,
+      "currentPrice": 420.02
+    },
+    {
+      "symbol": "NKE",
+      "quantity": 24,
+      "currentPrice": 424.51
+    },
+    {
+      "symbol": "NFLX",
+      "quantity": 13,
+      "currentPrice": 1845.31
+    },
+    {
+      "symbol": "BAC",
+      "quantity": 67,
+      "currentPrice": 1889.58
+    },
+    {
+      "symbol": "AAPL",
+      "quantity": 61,
+      "currentPrice": 4173.19
+    },
+    {
+      "symbol": "CVX",
+      "quantity": 73,
+      "currentPrice": 1335.15
+    },
+    {
+      "symbol": "TSLA",
+      "quantity": 95,
+      "currentPrice": 1793.83
+    },
+    {
+      "symbol": "XOM",
+      "quantity": 13,
+      "currentPrice": 940.54
+    },
+    {
+      "symbol": "CVX",
+      "quantity": 28,
+      "currentPrice": 4441.88
+    },
+    {
+      "symbol": "BAC",
+      "quantity": 46,
+      "currentPrice": 487.26
+    },
+    {
+      "symbol": "KO",
+      "quantity": 21,
+      "currentPrice": 4629.01
+    },
+    {
+      "symbol": "INTC",
+      "quantity": 55,
+      "currentPrice": 3670.97
+    },
+    {
+      "symbol": "AMZN",
+      "quantity": 89,
+      "currentPrice": 3581.01
+    },
+    {
+      "symbol": "ADBE",
+      "quantity": 20,
+      "currentPrice": 227.2
+    },
+    {
+      "symbol": "KO",
+      "quantity": 61,
+      "currentPrice": 3096.23
+    },
+    {
+      "symbol": "PFE",
+      "quantity": 1,
+      "currentPrice": 1745.7
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 27,
+      "currentPrice": 4126.76
+    },
+    {
+      "symbol": "BA",
+      "quantity": 86,
+      "currentPrice": 62.2
+    },
+    {
+      "symbol": "INTC",
+      "quantity": 68,
+      "currentPrice": 3606.46
+    },
+    {
+      "symbol": "T",
+      "quantity": 85,
+      "currentPrice": 4872.11
+    },
+    {
+      "symbol": "FB",
+      "quantity": 50,
+      "currentPrice": 3419.72
+    },
+    {
+      "symbol": "CSCO",
+      "quantity": 70,
+      "currentPrice": 4207.49
+    },
+    {
+      "symbol": "DIS",
+      "quantity": 5,
+      "currentPrice": 1709.77
+    },
+    {
+      "symbol": "ADBE",
+      "quantity": 81,
+      "currentPrice": 4255.99
+    },
+    {
+      "symbol": "TSLA",
+      "quantity": 53,
+      "currentPrice": 879.47
+    },
+    {
+      "symbol": "T",
+      "quantity": 85,
+      "currentPrice": 3685.33
+    },
+    {
+      "symbol": "INTC",
+      "quantity": 71,
+      "currentPrice": 1559.91
+    },
+    {
+      "symbol": "C",
+      "quantity": 73,
+      "currentPrice": 4708.52
+    },
+    {
+      "symbol": "MA",
+      "quantity": 32,
+      "currentPrice": 606.26
+    },
+    {
+      "symbol": "JPM",
+      "quantity": 56,
+      "currentPrice": 625.44
+    },
+    {
+      "symbol": "AMZN",
+      "quantity": 75,
+      "currentPrice": 3176.82
+    },
+    {
+      "symbol": "C",
+      "quantity": 74,
+      "currentPrice": 1650.3
+    },
+    {
+      "symbol": "T",
+      "quantity": 98,
+      "currentPrice": 2799.69
+    },
+    {
+      "symbol": "CSCO",
+      "quantity": 70,
+      "currentPrice": 1151.74
+    },
+    {
+      "symbol": "NFLX",
+      "quantity": 26,
+      "currentPrice": 3280.08
+    },
+    {
+      "symbol": "CVX",
+      "quantity": 42,
+      "currentPrice": 4937.16
+    },
+    {
+      "symbol": "MSFT",
+      "quantity": 48,
+      "currentPrice": 348.84
+    },
+    {
+      "symbol": "PFE",
+      "quantity": 95,
+      "currentPrice": 20.24
+    },
+    {
+      "symbol": "JPM",
+      "quantity": 43,
+      "currentPrice": 2701.83
+    },
+    {
+      "symbol": "NKE",
+      "quantity": 70,
+      "currentPrice": 1953.11
+    },
+    {
+      "symbol": "WMT",
+      "quantity": 34,
+      "currentPrice": 1901.91
+    },
+    {
+      "symbol": "NFLX",
+      "quantity": 16,
+      "currentPrice": 620.4
+    },
+    {
+      "symbol": "XOM",
+      "quantity": 26,
+      "currentPrice": 3916.43
+    },
+    {
+      "symbol": "ORCL",
+      "quantity": 51,
+      "currentPrice": 3545.74
+    },
+    {
+      "symbol": "ORCL",
+      "quantity": 34,
+      "currentPrice": 1940.2
+    },
+    {
+      "symbol": "BAC",
+      "quantity": 54,
+      "currentPrice": 4887.58
+    },
+    {
+      "symbol": "V",
+      "quantity": 12,
+      "currentPrice": 1370.75
+    },
+    {
+      "symbol": "PFE",
+      "quantity": 47,
+      "currentPrice": 3449.96
+    },
+    {
+      "symbol": "TMUS",
+      "quantity": 27,
+      "currentPrice": 121.82
+    },
+    {
+      "symbol": "INTC",
+      "quantity": 98,
+      "currentPrice": 3925.63
+    },
+    {
+      "symbol": "ORCL",
+      "quantity": 58,
+      "currentPrice": 3602.07
+    },
+    {
+      "symbol": "TSLA",
+      "quantity": 25,
+      "currentPrice": 429.92
+    },
+    {
+      "symbol": "DIS",
+      "quantity": 58,
+      "currentPrice": 3045.1
+    },
+    {
+      "symbol": "AAPL",
+      "quantity": 15,
+      "currentPrice": 546.96
+    },
+    {
+      "symbol": "MSFT",
+      "quantity": 27,
+      "currentPrice": 4006.89
+    },
+    {
+      "symbol": "XOM",
+      "quantity": 32,
+      "currentPrice": 729.1
+    },
+    {
+      "symbol": "NVDA",
+      "quantity": 16,
+      "currentPrice": 872.75
+    },
+    {
+      "symbol": "V",
+      "quantity": 58,
+      "currentPrice": 2194.54
+    },
+    {
+      "symbol": "XOM",
+      "quantity": 14,
+      "currentPrice": 957.84
+    },
+    {
+      "symbol": "BA",
+      "quantity": 40,
+      "currentPrice": 3031.27
+    },
+    {
+      "symbol": "BAC",
+      "quantity": 16,
+      "currentPrice": 3849.07
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 78,
+      "currentPrice": 4877.89
+    },
+    {
+      "symbol": "IBM",
+      "quantity": 95,
+      "currentPrice": 2667.91
+    },
+    {
+      "symbol": "PFE",
+      "quantity": 52,
+      "currentPrice": 347.67
+    },
+    {
+      "symbol": "MSFT",
+      "quantity": 96,
+      "currentPrice": 4878.38
+    },
+    {
+      "symbol": "NKE",
+      "quantity": 83,
+      "currentPrice": 1533.84
+    },
+    {
+      "symbol": "CSCO",
+      "quantity": 56,
+      "currentPrice": 159.15
+    },
+    {
+      "symbol": "PFE",
+      "quantity": 78,
+      "currentPrice": 4865.81
+    },
+    {
+      "symbol": "T",
+      "quantity": 83,
+      "currentPrice": 49.08
+    },
+    {
+      "symbol": "INTC",
+      "quantity": 23,
+      "currentPrice": 1189.59
+    },
+    {
+      "symbol": "NVDA",
+      "quantity": 75,
+      "currentPrice": 4192.96
+    },
+    {
+      "symbol": "BAC",
+      "quantity": 67,
+      "currentPrice": 4887.09
+    },
+    {
+      "symbol": "T",
+      "quantity": 45,
+      "currentPrice": 1846.69
+    },
+    {
+      "symbol": "V",
+      "quantity": 23,
+      "currentPrice": 2923.26
+    },
+    {
+      "symbol": "T",
+      "quantity": 70,
+      "currentPrice": 1758.18
+    },
+    {
+      "symbol": "IBM",
+      "quantity": 13,
+      "currentPrice": 772.19
+    },
+    {
+      "symbol": "V",
+      "quantity": 44,
+      "currentPrice": 196.17
+    },
+    {
+      "symbol": "NFLX",
+      "quantity": 94,
+      "currentPrice": 4797.6
+    },
+    {
+      "symbol": "FB",
+      "quantity": 36,
+      "currentPrice": 4784.37
+    },
+    {
+      "symbol": "TSLA",
+      "quantity": 35,
+      "currentPrice": 3717.4
+    },
+    {
+      "symbol": "ADBE",
+      "quantity": 13,
+      "currentPrice": 1777.83
+    },
+    {
+      "symbol": "INTC",
+      "quantity": 92,
+      "currentPrice": 1827.14
+    },
+    {
+      "symbol": "MSFT",
+      "quantity": 15,
+      "currentPrice": 4225.26
+    },
+    {
+      "symbol": "ADBE",
+      "quantity": 43,
+      "currentPrice": 3332.44
+    },
+    {
+      "symbol": "FB",
+      "quantity": 10,
+      "currentPrice": 4415.65
+    },
+    {
+      "symbol": "V",
+      "quantity": 80,
+      "currentPrice": 2121.3
+    },
+    {
+      "symbol": "ORCL",
+      "quantity": 41,
+      "currentPrice": 2146.72
+    },
+    {
+      "symbol": "IBM",
+      "quantity": 56,
+      "currentPrice": 2471.23
+    },
+    {
+      "symbol": "CSCO",
+      "quantity": 13,
+      "currentPrice": 2100.16
+    },
+    {
+      "symbol": "BA",
+      "quantity": 73,
+      "currentPrice": 1290.85
+    },
+    {
+      "symbol": "KO",
+      "quantity": 4,
+      "currentPrice": 2492.06
+    },
+    {
+      "symbol": "GOOGL",
+      "quantity": 48,
+      "currentPrice": 1768.78
+    },
+    {
+      "symbol": "AMZN",
+      "quantity": 21,
+      "currentPrice": 732.25
+    },
+    {
+      "symbol": "FB",
+      "quantity": 92,
+      "currentPrice": 1826.6
+    },
+    {
+      "symbol": "BA",
+      "quantity": 93,
+      "currentPrice": 2230.53
+    },
+    {
+      "symbol": "FB",
+      "quantity": 17,
+      "currentPrice": 4321.35
+    },
+    {
+      "symbol": "XOM",
+      "quantity": 92,
+      "currentPrice": 2646.82
+    },
+    {
+      "symbol": "NVDA",
+      "quantity": 49,
+      "currentPrice": 4903.92
+    },
+    {
+      "symbol": "CSCO",
+      "quantity": 60,
+      "currentPrice": 3054.07
+    },
+    {
+      "symbol": "ADBE",
+      "quantity": 11,
+      "currentPrice": 4495.31
+    },
+    {
+      "symbol": "BAC",
+      "quantity": 90,
+      "currentPrice": 3768.7
+    },
+    {
+      "symbol": "NFLX",
+      "quantity": 4,
+      "currentPrice": 3053.29
+    },
+    {
+      "symbol": "V",
+      "quantity": 92,
+      "currentPrice": 746.34
+    },
+    {
+      "symbol": "XOM",
+      "quantity": 7,
+      "currentPrice": 1610.5
+    },
+    {
+      "symbol": "GOOGL",
+      "quantity": 67,
+      "currentPrice": 1350.82
+    },
+    {
+      "symbol": "MSFT",
+      "quantity": 79,
+      "currentPrice": 2136.92
+    },
+    {
+      "symbol": "GOOGL",
+      "quantity": 67,
+      "currentPrice": 3680.83
+    },
+    {
+      "symbol": "CSCO",
+      "quantity": 87,
+      "currentPrice": 4516.44
+    },
+    {
+      "symbol": "NFLX",
+      "quantity": 57,
+      "currentPrice": 3452.57
+    },
+    {
+      "symbol": "DIS",
+      "quantity": 55,
+      "currentPrice": 2425.26
+    },
+    {
+      "symbol": "ORCL",
+      "quantity": 5,
+      "currentPrice": 3366.6
+    },
+    {
+      "symbol": "NKE",
+      "quantity": 80,
+      "currentPrice": 38.96
+    },
+    {
+      "symbol": "NVDA",
+      "quantity": 57,
+      "currentPrice": 3275.21
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 81,
+      "currentPrice": 320.01
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 24,
+      "currentPrice": 3577.53
+    },
+    {
+      "symbol": "GOOGL",
+      "quantity": 26,
+      "currentPrice": 488.2
+    },
+    {
+      "symbol": "T",
+      "quantity": 37,
+      "currentPrice": 4665.62
+    },
+    {
+      "symbol": "ORCL",
+      "quantity": 39,
+      "currentPrice": 3215.46
+    },
+    {
+      "symbol": "BA",
+      "quantity": 53,
+      "currentPrice": 2090.29
+    },
+    {
+      "symbol": "PFE",
+      "quantity": 2,
+      "currentPrice": 1656.9
+    },
+    {
+      "symbol": "INTC",
+      "quantity": 40,
+      "currentPrice": 4625.51
+    },
+    {
+      "symbol": "DIS",
+      "quantity": 15,
+      "currentPrice": 2335.2
+    },
+    {
+      "symbol": "GOOGL",
+      "quantity": 67,
+      "currentPrice": 93.36
+    },
+    {
+      "symbol": "NFLX",
+      "quantity": 99,
+      "currentPrice": 1585.46
+    },
+    {
+      "symbol": "T",
+      "quantity": 7,
+      "currentPrice": 3195.34
+    },
+    {
+      "symbol": "XOM",
+      "quantity": 72,
+      "currentPrice": 75.62
+    },
+    {
+      "symbol": "NFLX",
+      "quantity": 99,
+      "currentPrice": 3202.25
+    },
+    {
+      "symbol": "BAC",
+      "quantity": 100,
+      "currentPrice": 1252.7
+    },
+    {
+      "symbol": "C",
+      "quantity": 83,
+      "currentPrice": 1000.8
+    },
+    {
+      "symbol": "TSLA",
+      "quantity": 15,
+      "currentPrice": 1120.86
+    },
+    {
+      "symbol": "INTC",
+      "quantity": 94,
+      "currentPrice": 2714.62
+    },
+    {
+      "symbol": "V",
+      "quantity": 68,
+      "currentPrice": 176.44
+    },
+    {
+      "symbol": "ORCL",
+      "quantity": 94,
+      "currentPrice": 569.18
+    },
+    {
+      "symbol": "AMZN",
+      "quantity": 12,
+      "currentPrice": 445.33
+    },
+    {
+      "symbol": "ORCL",
+      "quantity": 92,
+      "currentPrice": 4133.42
+    },
+    {
+      "symbol": "PFE",
+      "quantity": 74,
+      "currentPrice": 510.04
+    },
+    {
+      "symbol": "GOOGL",
+      "quantity": 9,
+      "currentPrice": 2223.1
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 46,
+      "currentPrice": 4563.84
+    },
+    {
+      "symbol": "WMT",
+      "quantity": 52,
+      "currentPrice": 3119.79
+    },
+    {
+      "symbol": "CSCO",
+      "quantity": 23,
+      "currentPrice": 2514.15
+    },
+    {
+      "symbol": "ORCL",
+      "quantity": 2,
+      "currentPrice": 799.15
+    },
+    {
+      "symbol": "WMT",
+      "quantity": 56,
+      "currentPrice": 3445.28
+    },
+    {
+      "symbol": "AMD",
+      "quantity": 36,
+      "currentPrice": 3434.86
+    },
+    {
+      "symbol": "CVX",
+      "quantity": 44,
+      "currentPrice": 1257.49
+    },
+    {
+      "symbol": "CSCO",
+      "quantity": 43,
+      "currentPrice": 3696.82
+    },
+    {
+      "symbol": "PFE",
+      "quantity": 85,
+      "currentPrice": 1766.08
+    },
+    {
+      "symbol": "FB",
+      "quantity": 23,
+      "currentPrice": 2207.61
+    },
+    {
+      "symbol": "MA",
+      "quantity": 64,
+      "currentPrice": 1815.95
+    },
+    {
+      "symbol": "NFLX",
+      "quantity": 64,
+      "currentPrice": 873.89
+    },
+    {
+      "symbol": "ADBE",
+      "quantity": 9,
+      "currentPrice": 4464.35
+    },
+    {
+      "symbol": "INTC",
+      "quantity": 49,
+      "currentPrice": 1207.95
+    },
+    {
+      "symbol": "JPM",
+      "quantity": 62,
+      "currentPrice": 1107.51
+    },
+    {
+      "symbol": "ORCL",
+      "quantity": 63,
+      "currentPrice": 4916.3
+    },
+    {
+      "symbol": "FB",
+      "quantity": 15,
+      "currentPrice": 213.26
+    },
+    {
+      "symbol": "BAC",
+      "quantity": 21,
+      "currentPrice": 1131.2
+    },
+    {
+      "symbol": "XOM",
+      "quantity": 26,
+      "currentPrice": 291.26
+    },
+    {
+      "symbol": "FB",
+      "quantity": 99,
+      "currentPrice": 677.29
+    },
+    {
+      "symbol": "CVX",
+      "quantity": 5,
+      "currentPrice": 2565.8
+    },
+    {
+      "symbol": "PFE",
+      "quantity": 25,
+      "currentPrice": 2916.43
+    },
+    {
+      "symbol": "GOOGL",
+      "quantity": 21,
+      "currentPrice": 4161.88
+    },
+    {
+      "symbol": "V",
+      "quantity": 36,
+      "currentPrice": 818.32
+    },
+    {
+      "symbol": "AAPL",
+      "quantity": 52,
+      "currentPrice": 1038.19
+    },
+    {
+      "symbol": "GOOGL",
+      "quantity": 92,
+      "currentPrice": 3390.58
+    },
+    {
+      "symbol": "TSLA",
+      "quantity": 57,
+      "currentPrice": 94.39
+    },
+    {
+      "symbol": "CVX",
+      "quantity": 44,
+      "currentPrice": 2079.04
+    },
+    {
+      "symbol": "PFE",
+      "quantity": 56,
+      "currentPrice": 2404.35
+    },
+    {
+      "symbol": "GOOGL",
+      "quantity": 79,
+      "currentPrice": 2267.12
+    },
+    {
+      "symbol": "PFE",
+      "quantity": 64,
+      "currentPrice": 2278.41
+    },
+    {
+      "symbol": "T",
+      "quantity": 96,
+      "currentPrice": 2860.07
+    },
+    {
+      "symbol": "PFE",
+      "quantity": 73,
+      "currentPrice": 3201.03
+    },
+    {
+      "symbol": "TMUS",
+      "quantity": 47,
+      "currentPrice": 3352.99
+    },
+    {
+      "symbol": "NFLX",
+      "quantity": 26,
+      "currentPrice": 2546.18
+    },
+    {
+      "symbol": "ADBE",
+      "quantity": 48,
+      "currentPrice": 3971.7
+    },
+    {
+      "symbol": "TMUS",
+      "quantity": 35,
+      "currentPrice": 4565.01
+    },
+    {
+      "symbol": "ADBE",
+      "quantity": 40,
+      "currentPrice": 1510.83
+    },
+    {
+      "symbol": "XOM",
+      "quantity": 87,
+      "currentPrice": 2407.17
+    },
+    {
+      "symbol": "TMUS",
+      "quantity": 35,
+      "currentPrice": 589.51
+    },
+    {
+      "symbol": "CSCO",
+      "quantity": 7,
+      "currentPrice": 3483.1
+    },
+    {
+      "symbol": "NKE",
+      "quantity": 77,
+      "currentPrice": 4655.36
+    },
+    {
+      "symbol": "C",
+      "quantity": 32,
+      "currentPrice": 3681.61
+    },
+    {
+      "symbol": "T",
+      "quantity": 85,
+      "currentPrice": 4711.67
+    },
+    {
+      "symbol": "CSCO",
+      "quantity": 71,
+      "currentPrice": 3989.85
+    },
+    {
+      "symbol": "PFE",
+      "quantity": 15,
+      "currentPrice": 1227.4
+    },
+    {
+      "symbol": "TSLA",
+      "quantity": 43,
+      "currentPrice": 1705.7
+    },
+    {
+      "symbol": "PFE",
+      "quantity": 68,
+      "currentPrice": 963.72
+    },
+    {
+      "symbol": "PFE",
+      "quantity": 69,
+      "currentPrice": 3842.57
+    },
+    {
+      "symbol": "MA",
+      "quantity": 74,
+      "currentPrice": 2473.75
+    },
+    {
+      "symbol": "ADBE",
+      "quantity": 62,
+      "currentPrice": 2667.16
+    },
+    {
+      "symbol": "V",
+      "quantity": 70,
+      "currentPrice": 2523.02
+    },
+    {
+      "symbol": "FB",
+      "quantity": 55,
+      "currentPrice": 4419.49
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 76,
+      "currentPrice": 4147.87
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 74,
+      "currentPrice": 4173.3
+    },
+    {
+      "symbol": "IBM",
+      "quantity": 16,
+      "currentPrice": 4483.52
+    },
+    {
+      "symbol": "FB",
+      "quantity": 61,
+      "currentPrice": 364.45
+    },
+    {
+      "symbol": "NKE",
+      "quantity": 43,
+      "currentPrice": 1192.88
+    },
+    {
+      "symbol": "ORCL",
+      "quantity": 66,
+      "currentPrice": 4336.61
+    },
+    {
+      "symbol": "XOM",
+      "quantity": 100,
+      "currentPrice": 765.01
+    },
+    {
+      "symbol": "INTC",
+      "quantity": 49,
+      "currentPrice": 1026.54
+    },
+    {
+      "symbol": "JPM",
+      "quantity": 50,
+      "currentPrice": 2151.63
+    },
+    {
+      "symbol": "WMT",
+      "quantity": 54,
+      "currentPrice": 3532.32
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 70,
+      "currentPrice": 542.46
+    },
+    {
+      "symbol": "AAPL",
+      "quantity": 78,
+      "currentPrice": 1656.45
+    },
+    {
+      "symbol": "NVDA",
+      "quantity": 32,
+      "currentPrice": 4215.57
+    },
+    {
+      "symbol": "IBM",
+      "quantity": 1,
+      "currentPrice": 1331.99
+    },
+    {
+      "symbol": "DIS",
+      "quantity": 82,
+      "currentPrice": 1917.63
+    },
+    {
+      "symbol": "INTC",
+      "quantity": 37,
+      "currentPrice": 819.34
+    },
+    {
+      "symbol": "ORCL",
+      "quantity": 26,
+      "currentPrice": 259.14
+    },
+    {
+      "symbol": "DIS",
+      "quantity": 93,
+      "currentPrice": 4295.79
+    },
+    {
+      "symbol": "MA",
+      "quantity": 84,
+      "currentPrice": 4597.97
+    },
+    {
+      "symbol": "IBM",
+      "quantity": 18,
+      "currentPrice": 3507.68
+    },
+    {
+      "symbol": "XOM",
+      "quantity": 46,
+      "currentPrice": 686.31
+    },
+    {
+      "symbol": "MSFT",
+      "quantity": 92,
+      "currentPrice": 2253.06
+    },
+    {
+      "symbol": "ADBE",
+      "quantity": 84,
+      "currentPrice": 4377.88
+    },
+    {
+      "symbol": "KO",
+      "quantity": 48,
+      "currentPrice": 3102.1
+    },
+    {
+      "symbol": "PFE",
+      "quantity": 66,
+      "currentPrice": 1512.66
+    },
+    {
+      "symbol": "CSCO",
+      "quantity": 3,
+      "currentPrice": 2067.29
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 79,
+      "currentPrice": 1320.06
+    },
+    {
+      "symbol": "ADBE",
+      "quantity": 48,
+      "currentPrice": 712.95
+    },
+    {
+      "symbol": "BA",
+      "quantity": 8,
+      "currentPrice": 4798.94
+    },
+    {
+      "symbol": "TSLA",
+      "quantity": 92,
+      "currentPrice": 3072.45
+    },
+    {
+      "symbol": "XOM",
+      "quantity": 86,
+      "currentPrice": 1394.8
+    },
+    {
+      "symbol": "ORCL",
+      "quantity": 88,
+      "currentPrice": 398.89
+    },
+    {
+      "symbol": "V",
+      "quantity": 61,
+      "currentPrice": 3556.47
+    },
+    {
+      "symbol": "FB",
+      "quantity": 69,
+      "currentPrice": 1587.25
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 31,
+      "currentPrice": 2947.86
+    },
+    {
+      "symbol": "NKE",
+      "quantity": 61,
+      "currentPrice": 948.79
+    },
+    {
+      "symbol": "AMD",
+      "quantity": 63,
+      "currentPrice": 3494.42
+    },
+    {
+      "symbol": "T",
+      "quantity": 60,
+      "currentPrice": 4977.0
+    },
+    {
+      "symbol": "ADBE",
+      "quantity": 55,
+      "currentPrice": 4575.08
+    },
+    {
+      "symbol": "AMZN",
+      "quantity": 40,
+      "currentPrice": 2172.11
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 1,
+      "currentPrice": 2461.35
+    },
+    {
+      "symbol": "MA",
+      "quantity": 37,
+      "currentPrice": 3408.25
+    },
+    {
+      "symbol": "AMZN",
+      "quantity": 14,
+      "currentPrice": 588.6
+    },
+    {
+      "symbol": "MA",
+      "quantity": 60,
+      "currentPrice": 4066.35
+    },
+    {
+      "symbol": "NKE",
+      "quantity": 72,
+      "currentPrice": 2937.35
+    },
+    {
+      "symbol": "BA",
+      "quantity": 40,
+      "currentPrice": 1248.46
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 68,
+      "currentPrice": 866.49
+    },
+    {
+      "symbol": "WMT",
+      "quantity": 5,
+      "currentPrice": 844.51
+    },
+    {
+      "symbol": "V",
+      "quantity": 19,
+      "currentPrice": 575.83
+    },
+    {
+      "symbol": "AMD",
+      "quantity": 93,
+      "currentPrice": 1400.1
+    },
+    {
+      "symbol": "GOOGL",
+      "quantity": 53,
+      "currentPrice": 4578.41
+    },
+    {
+      "symbol": "CVX",
+      "quantity": 83,
+      "currentPrice": 82.81
+    },
+    {
+      "symbol": "ORCL",
+      "quantity": 39,
+      "currentPrice": 3017.87
+    },
+    {
+      "symbol": "XOM",
+      "quantity": 45,
+      "currentPrice": 4717.48
+    },
+    {
+      "symbol": "MSFT",
+      "quantity": 59,
+      "currentPrice": 1985.06
+    },
+    {
+      "symbol": "KO",
+      "quantity": 55,
+      "currentPrice": 4111.07
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 91,
+      "currentPrice": 1591.68
+    },
+    {
+      "symbol": "TMUS",
+      "quantity": 7,
+      "currentPrice": 1343.62
+    },
+    {
+      "symbol": "C",
+      "quantity": 46,
+      "currentPrice": 4255.47
+    },
+    {
+      "symbol": "CVX",
+      "quantity": 2,
+      "currentPrice": 3215.91
+    },
+    {
+      "symbol": "C",
+      "quantity": 26,
+      "currentPrice": 4205.46
+    },
+    {
+      "symbol": "NVDA",
+      "quantity": 16,
+      "currentPrice": 2877.83
+    },
+    {
+      "symbol": "XOM",
+      "quantity": 45,
+      "currentPrice": 2975.84
+    },
+    {
+      "symbol": "TSLA",
+      "quantity": 53,
+      "currentPrice": 2948.22
+    },
+    {
+      "symbol": "WMT",
+      "quantity": 2,
+      "currentPrice": 265.29
+    },
+    {
+      "symbol": "DIS",
+      "quantity": 41,
+      "currentPrice": 4941.35
+    },
+    {
+      "symbol": "FB",
+      "quantity": 62,
+      "currentPrice": 2512.25
+    },
+    {
+      "symbol": "KO",
+      "quantity": 34,
+      "currentPrice": 2884.13
+    },
+    {
+      "symbol": "C",
+      "quantity": 38,
+      "currentPrice": 4118.67
+    },
+    {
+      "symbol": "CSCO",
+      "quantity": 38,
+      "currentPrice": 1973.23
+    },
+    {
+      "symbol": "MA",
+      "quantity": 78,
+      "currentPrice": 3538.83
+    },
+    {
+      "symbol": "ADBE",
+      "quantity": 52,
+      "currentPrice": 3539.32
+    },
+    {
+      "symbol": "INTC",
+      "quantity": 84,
+      "currentPrice": 4577.45
+    },
+    {
+      "symbol": "C",
+      "quantity": 74,
+      "currentPrice": 2755.03
+    },
+    {
+      "symbol": "MSFT",
+      "quantity": 56,
+      "currentPrice": 1337.93
+    },
+    {
+      "symbol": "AMZN",
+      "quantity": 26,
+      "currentPrice": 835.75
+    },
+    {
+      "symbol": "TSLA",
+      "quantity": 59,
+      "currentPrice": 1302.37
+    },
+    {
+      "symbol": "PFE",
+      "quantity": 67,
+      "currentPrice": 1642.52
+    },
+    {
+      "symbol": "C",
+      "quantity": 44,
+      "currentPrice": 2568.35
+    },
+    {
+      "symbol": "FB",
+      "quantity": 92,
+      "currentPrice": 4713.78
+    },
+    {
+      "symbol": "DIS",
+      "quantity": 72,
+      "currentPrice": 2334.02
+    },
+    {
+      "symbol": "IBM",
+      "quantity": 55,
+      "currentPrice": 2492.78
+    },
+    {
+      "symbol": "CSCO",
+      "quantity": 83,
+      "currentPrice": 2243.27
+    },
+    {
+      "symbol": "NFLX",
+      "quantity": 48,
+      "currentPrice": 1465.36
+    },
+    {
+      "symbol": "ORCL",
+      "quantity": 6,
+      "currentPrice": 592.22
+    },
+    {
+      "symbol": "WMT",
+      "quantity": 64,
+      "currentPrice": 1161.07
+    },
+    {
+      "symbol": "WMT",
+      "quantity": 18,
+      "currentPrice": 4570.56
+    },
+    {
+      "symbol": "WMT",
+      "quantity": 30,
+      "currentPrice": 3453.76
+    },
+    {
+      "symbol": "IBM",
+      "quantity": 48,
+      "currentPrice": 2565.79
+    },
+    {
+      "symbol": "FB",
+      "quantity": 97,
+      "currentPrice": 1182.43
+    },
+    {
+      "symbol": "AMD",
+      "quantity": 84,
+      "currentPrice": 2014.3
+    },
+    {
+      "symbol": "MA",
+      "quantity": 58,
+      "currentPrice": 4755.55
+    },
+    {
+      "symbol": "DIS",
+      "quantity": 5,
+      "currentPrice": 860.45
+    },
+    {
+      "symbol": "NKE",
+      "quantity": 67,
+      "currentPrice": 3783.83
+    },
+    {
+      "symbol": "PFE",
+      "quantity": 6,
+      "currentPrice": 1748.29
+    },
+    {
+      "symbol": "C",
+      "quantity": 5,
+      "currentPrice": 684.66
+    },
+    {
+      "symbol": "TSLA",
+      "quantity": 28,
+      "currentPrice": 2628.14
+    },
+    {
+      "symbol": "INTC",
+      "quantity": 77,
+      "currentPrice": 3340.35
+    },
+    {
+      "symbol": "INTC",
+      "quantity": 80,
+      "currentPrice": 2200.26
+    },
+    {
+      "symbol": "FB",
+      "quantity": 94,
+      "currentPrice": 592.42
+    },
+    {
+      "symbol": "INTC",
+      "quantity": 83,
+      "currentPrice": 2472.05
+    },
+    {
+      "symbol": "BAC",
+      "quantity": 24,
+      "currentPrice": 3115.89
+    },
+    {
+      "symbol": "AMZN",
+      "quantity": 89,
+      "currentPrice": 755.52
+    },
+    {
+      "symbol": "MA",
+      "quantity": 90,
+      "currentPrice": 2020.34
+    },
+    {
+      "symbol": "PFE",
+      "quantity": 72,
+      "currentPrice": 55.03
+    },
+    {
+      "symbol": "MA",
+      "quantity": 38,
+      "currentPrice": 176.68
+    },
+    {
+      "symbol": "FB",
+      "quantity": 50,
+      "currentPrice": 770.95
+    },
+    {
+      "symbol": "INTC",
+      "quantity": 90,
+      "currentPrice": 242.91
+    },
+    {
+      "symbol": "WMT",
+      "quantity": 47,
+      "currentPrice": 1530.03
+    },
+    {
+      "symbol": "TMUS",
+      "quantity": 5,
+      "currentPrice": 2692.32
+    },
+    {
+      "symbol": "ADBE",
+      "quantity": 82,
+      "currentPrice": 3024.04
+    },
+    {
+      "symbol": "WMT",
+      "quantity": 90,
+      "currentPrice": 3984.05
+    },
+    {
+      "symbol": "AAPL",
+      "quantity": 100,
+      "currentPrice": 2571.96
+    },
+    {
+      "symbol": "KO",
+      "quantity": 94,
+      "currentPrice": 2378.57
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 19,
+      "currentPrice": 1182.92
+    },
+    {
+      "symbol": "ORCL",
+      "quantity": 93,
+      "currentPrice": 2064.47
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 44,
+      "currentPrice": 1268.33
+    },
+    {
+      "symbol": "TMUS",
+      "quantity": 9,
+      "currentPrice": 1306.46
+    },
+    {
+      "symbol": "V",
+      "quantity": 1,
+      "currentPrice": 4507.59
+    },
+    {
+      "symbol": "GOOGL",
+      "quantity": 76,
+      "currentPrice": 3115.81
+    },
+    {
+      "symbol": "MSFT",
+      "quantity": 50,
+      "currentPrice": 4399.78
+    },
+    {
+      "symbol": "MSFT",
+      "quantity": 14,
+      "currentPrice": 4955.99
+    },
+    {
+      "symbol": "CVX",
+      "quantity": 66,
+      "currentPrice": 1656.75
+    },
+    {
+      "symbol": "CSCO",
+      "quantity": 27,
+      "currentPrice": 244.45
+    },
+    {
+      "symbol": "NKE",
+      "quantity": 42,
+      "currentPrice": 1633.61
+    },
+    {
+      "symbol": "AMD",
+      "quantity": 95,
+      "currentPrice": 4055.77
+    },
+    {
+      "symbol": "BA",
+      "quantity": 15,
+      "currentPrice": 681.9
+    },
+    {
+      "symbol": "NKE",
+      "quantity": 8,
+      "currentPrice": 1249.79
+    },
+    {
+      "symbol": "IBM",
+      "quantity": 30,
+      "currentPrice": 813.92
+    },
+    {
+      "symbol": "CVX",
+      "quantity": 63,
+      "currentPrice": 616.59
+    },
+    {
+      "symbol": "BAC",
+      "quantity": 81,
+      "currentPrice": 4550.29
+    },
+    {
+      "symbol": "PFE",
+      "quantity": 46,
+      "currentPrice": 2595.53
+    },
+    {
+      "symbol": "INTC",
+      "quantity": 94,
+      "currentPrice": 4878.21
+    },
+    {
+      "symbol": "CSCO",
+      "quantity": 93,
+      "currentPrice": 288.78
+    },
+    {
+      "symbol": "BAC",
+      "quantity": 66,
+      "currentPrice": 2824.81
+    },
+    {
+      "symbol": "ORCL",
+      "quantity": 9,
+      "currentPrice": 1063.26
+    },
+    {
+      "symbol": "NKE",
+      "quantity": 77,
+      "currentPrice": 1885.57
+    },
+    {
+      "symbol": "GOOGL",
+      "quantity": 87,
+      "currentPrice": 2944.11
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 93,
+      "currentPrice": 4315.72
+    },
+    {
+      "symbol": "AAPL",
+      "quantity": 2,
+      "currentPrice": 1734.73
+    },
+    {
+      "symbol": "ADBE",
+      "quantity": 79,
+      "currentPrice": 4709.21
+    },
+    {
+      "symbol": "NFLX",
+      "quantity": 77,
+      "currentPrice": 2552.09
+    },
+    {
+      "symbol": "WMT",
+      "quantity": 74,
+      "currentPrice": 1712.8
+    },
+    {
+      "symbol": "KO",
+      "quantity": 43,
+      "currentPrice": 3794.35
+    },
+    {
+      "symbol": "T",
+      "quantity": 11,
+      "currentPrice": 2338.73
+    },
+    {
+      "symbol": "T",
+      "quantity": 39,
+      "currentPrice": 3346.46
+    },
+    {
+      "symbol": "ADBE",
+      "quantity": 22,
+      "currentPrice": 2316.43
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 3,
+      "currentPrice": 2143.86
+    },
+    {
+      "symbol": "AMD",
+      "quantity": 43,
+      "currentPrice": 1602.3
+    },
+    {
+      "symbol": "T",
+      "quantity": 82,
+      "currentPrice": 4962.75
+    },
+    {
+      "symbol": "CVX",
+      "quantity": 58,
+      "currentPrice": 1444.23
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 42,
+      "currentPrice": 4329.16
+    },
+    {
+      "symbol": "CVX",
+      "quantity": 89,
+      "currentPrice": 625.51
+    },
+    {
+      "symbol": "TMUS",
+      "quantity": 21,
+      "currentPrice": 2131.62
+    },
+    {
+      "symbol": "DIS",
+      "quantity": 78,
+      "currentPrice": 2184.94
+    },
+    {
+      "symbol": "T",
+      "quantity": 66,
+      "currentPrice": 3819.53
+    },
+    {
+      "symbol": "DIS",
+      "quantity": 76,
+      "currentPrice": 766.78
+    },
+    {
+      "symbol": "XOM",
+      "quantity": 34,
+      "currentPrice": 4001.49
+    },
+    {
+      "symbol": "AMZN",
+      "quantity": 11,
+      "currentPrice": 2527.1
+    },
+    {
+      "symbol": "NKE",
+      "quantity": 26,
+      "currentPrice": 1186.3
+    },
+    {
+      "symbol": "JPM",
+      "quantity": 34,
+      "currentPrice": 1317.55
+    },
+    {
+      "symbol": "GOOGL",
+      "quantity": 88,
+      "currentPrice": 1512.65
+    },
+    {
+      "symbol": "IBM",
+      "quantity": 40,
+      "currentPrice": 3848.8
+    },
+    {
+      "symbol": "FB",
+      "quantity": 17,
+      "currentPrice": 4954.36
+    },
+    {
+      "symbol": "XOM",
+      "quantity": 7,
+      "currentPrice": 2972.8
+    },
+    {
+      "symbol": "BA",
+      "quantity": 36,
+      "currentPrice": 4672.04
+    },
+    {
+      "symbol": "MA",
+      "quantity": 72,
+      "currentPrice": 488.68
+    },
+    {
+      "symbol": "CVX",
+      "quantity": 55,
+      "currentPrice": 3296.21
+    },
+    {
+      "symbol": "AMZN",
+      "quantity": 93,
+      "currentPrice": 411.39
+    },
+    {
+      "symbol": "V",
+      "quantity": 22,
+      "currentPrice": 3658.34
+    },
+    {
+      "symbol": "NVDA",
+      "quantity": 44,
+      "currentPrice": 2719.33
+    },
+    {
+      "symbol": "V",
+      "quantity": 39,
+      "currentPrice": 3107.57
+    },
+    {
+      "symbol": "INTC",
+      "quantity": 96,
+      "currentPrice": 2715.39
+    },
+    {
+      "symbol": "AMD",
+      "quantity": 64,
+      "currentPrice": 4276.95
+    },
+    {
+      "symbol": "INTC",
+      "quantity": 8,
+      "currentPrice": 2151.43
+    },
+    {
+      "symbol": "C",
+      "quantity": 64,
+      "currentPrice": 4226.85
+    },
+    {
+      "symbol": "CSCO",
+      "quantity": 7,
+      "currentPrice": 1774.9
+    },
+    {
+      "symbol": "NVDA",
+      "quantity": 86,
+      "currentPrice": 1457.23
+    },
+    {
+      "symbol": "JPM",
+      "quantity": 85,
+      "currentPrice": 1617.87
+    },
+    {
+      "symbol": "INTC",
+      "quantity": 6,
+      "currentPrice": 2425.14
+    },
+    {
+      "symbol": "KO",
+      "quantity": 37,
+      "currentPrice": 3713.86
+    },
+    {
+      "symbol": "CSCO",
+      "quantity": 93,
+      "currentPrice": 737.36
+    },
+    {
+      "symbol": "WMT",
+      "quantity": 40,
+      "currentPrice": 2292.48
+    },
+    {
+      "symbol": "AAPL",
+      "quantity": 100,
+      "currentPrice": 2035.02
+    },
+    {
+      "symbol": "JPM",
+      "quantity": 65,
+      "currentPrice": 3865.82
+    },
+    {
+      "symbol": "MA",
+      "quantity": 47,
+      "currentPrice": 2169.47
+    },
+    {
+      "symbol": "FB",
+      "quantity": 44,
+      "currentPrice": 415.68
+    },
+    {
+      "symbol": "ORCL",
+      "quantity": 8,
+      "currentPrice": 2982.38
+    },
+    {
+      "symbol": "DIS",
+      "quantity": 48,
+      "currentPrice": 2638.45
+    },
+    {
+      "symbol": "C",
+      "quantity": 19,
+      "currentPrice": 2336.27
+    },
+    {
+      "symbol": "AMZN",
+      "quantity": 70,
+      "currentPrice": 4178.53
+    },
+    {
+      "symbol": "XOM",
+      "quantity": 96,
+      "currentPrice": 3222.94
+    },
+    {
+      "symbol": "AMD",
+      "quantity": 31,
+      "currentPrice": 772.48
+    },
+    {
+      "symbol": "T",
+      "quantity": 84,
+      "currentPrice": 4300.54
+    },
+    {
+      "symbol": "MA",
+      "quantity": 38,
+      "currentPrice": 124.52
+    },
+    {
+      "symbol": "NFLX",
+      "quantity": 74,
+      "currentPrice": 3917.95
+    },
+    {
+      "symbol": "AAPL",
+      "quantity": 58,
+      "currentPrice": 1612.53
+    },
+    {
+      "symbol": "BA",
+      "quantity": 29,
+      "currentPrice": 3506.67
+    },
+    {
+      "symbol": "C",
+      "quantity": 65,
+      "currentPrice": 519.91
+    },
+    {
+      "symbol": "TSLA",
+      "quantity": 50,
+      "currentPrice": 1933.59
+    },
+    {
+      "symbol": "ORCL",
+      "quantity": 33,
+      "currentPrice": 959.66
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 45,
+      "currentPrice": 81.47
+    },
+    {
+      "symbol": "FB",
+      "quantity": 44,
+      "currentPrice": 1246.68
+    },
+    {
+      "symbol": "AMD",
+      "quantity": 56,
+      "currentPrice": 4065.8
+    },
+    {
+      "symbol": "CSCO",
+      "quantity": 93,
+      "currentPrice": 4416.48
+    },
+    {
+      "symbol": "MA",
+      "quantity": 82,
+      "currentPrice": 1613.73
+    },
+    {
+      "symbol": "DIS",
+      "quantity": 38,
+      "currentPrice": 1193.03
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 49,
+      "currentPrice": 929.59
+    },
+    {
+      "symbol": "AMD",
+      "quantity": 89,
+      "currentPrice": 3100.54
+    },
+    {
+      "symbol": "FB",
+      "quantity": 2,
+      "currentPrice": 4262.79
+    },
+    {
+      "symbol": "MA",
+      "quantity": 5,
+      "currentPrice": 1865.23
+    },
+    {
+      "symbol": "JPM",
+      "quantity": 85,
+      "currentPrice": 1807.38
+    },
+    {
+      "symbol": "BAC",
+      "quantity": 19,
+      "currentPrice": 1529.98
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 11,
+      "currentPrice": 1963.09
+    },
+    {
+      "symbol": "FB",
+      "quantity": 83,
+      "currentPrice": 2722.39
+    },
+    {
+      "symbol": "AMD",
+      "quantity": 70,
+      "currentPrice": 4921.2
+    },
+    {
+      "symbol": "T",
+      "quantity": 19,
+      "currentPrice": 3818.14
+    },
+    {
+      "symbol": "T",
+      "quantity": 77,
+      "currentPrice": 4948.61
+    },
+    {
+      "symbol": "CVX",
+      "quantity": 14,
+      "currentPrice": 2118.13
+    },
+    {
+      "symbol": "T",
+      "quantity": 64,
+      "currentPrice": 3484.82
+    },
+    {
+      "symbol": "WMT",
+      "quantity": 36,
+      "currentPrice": 2980.89
+    },
+    {
+      "symbol": "DIS",
+      "quantity": 55,
+      "currentPrice": 3191.98
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 41,
+      "currentPrice": 3605.32
+    },
+    {
+      "symbol": "TMUS",
+      "quantity": 76,
+      "currentPrice": 2495.17
+    },
+    {
+      "symbol": "AAPL",
+      "quantity": 60,
+      "currentPrice": 3077.67
+    },
+    {
+      "symbol": "NFLX",
+      "quantity": 89,
+      "currentPrice": 3300.05
+    },
+    {
+      "symbol": "DIS",
+      "quantity": 72,
+      "currentPrice": 466.31
+    },
+    {
+      "symbol": "JPM",
+      "quantity": 55,
+      "currentPrice": 3452.96
+    },
+    {
+      "symbol": "JPM",
+      "quantity": 91,
+      "currentPrice": 2258.78
+    },
+    {
+      "symbol": "MSFT",
+      "quantity": 99,
+      "currentPrice": 4123.42
+    },
+    {
+      "symbol": "NKE",
+      "quantity": 35,
+      "currentPrice": 1591.45
+    },
+    {
+      "symbol": "INTC",
+      "quantity": 61,
+      "currentPrice": 2700.91
+    },
+    {
+      "symbol": "V",
+      "quantity": 47,
+      "currentPrice": 86.37
+    },
+    {
+      "symbol": "GOOGL",
+      "quantity": 68,
+      "currentPrice": 1766.39
+    },
+    {
+      "symbol": "CVX",
+      "quantity": 10,
+      "currentPrice": 3242.17
+    },
+    {
+      "symbol": "TMUS",
+      "quantity": 51,
+      "currentPrice": 880.36
+    },
+    {
+      "symbol": "AMZN",
+      "quantity": 39,
+      "currentPrice": 2627.24
+    },
+    {
+      "symbol": "FB",
+      "quantity": 100,
+      "currentPrice": 4518.12
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 77,
+      "currentPrice": 1639.04
+    },
+    {
+      "symbol": "T",
+      "quantity": 22,
+      "currentPrice": 2064.89
+    },
+    {
+      "symbol": "JPM",
+      "quantity": 77,
+      "currentPrice": 2991.21
+    },
+    {
+      "symbol": "JPM",
+      "quantity": 22,
+      "currentPrice": 794.5
+    },
+    {
+      "symbol": "AMZN",
+      "quantity": 16,
+      "currentPrice": 111.18
+    },
+    {
+      "symbol": "NVDA",
+      "quantity": 14,
+      "currentPrice": 4495.43
+    },
+    {
+      "symbol": "BA",
+      "quantity": 92,
+      "currentPrice": 3177.57
+    },
+    {
+      "symbol": "NVDA",
+      "quantity": 32,
+      "currentPrice": 2368.63
+    },
+    {
+      "symbol": "NVDA",
+      "quantity": 81,
+      "currentPrice": 1165.21
+    },
+    {
+      "symbol": "DIS",
+      "quantity": 35,
+      "currentPrice": 4044.67
+    },
+    {
+      "symbol": "MA",
+      "quantity": 45,
+      "currentPrice": 2315.8
+    },
+    {
+      "symbol": "GOOGL",
+      "quantity": 52,
+      "currentPrice": 4419.34
+    },
+    {
+      "symbol": "CVX",
+      "quantity": 21,
+      "currentPrice": 4645.35
+    },
+    {
+      "symbol": "ORCL",
+      "quantity": 61,
+      "currentPrice": 863.0
+    },
+    {
+      "symbol": "KO",
+      "quantity": 4,
+      "currentPrice": 2381.75
+    },
+    {
+      "symbol": "TMUS",
+      "quantity": 79,
+      "currentPrice": 1875.02
+    },
+    {
+      "symbol": "JPM",
+      "quantity": 52,
+      "currentPrice": 631.86
+    },
+    {
+      "symbol": "TSLA",
+      "quantity": 63,
+      "currentPrice": 4226.66
+    },
+    {
+      "symbol": "KO",
+      "quantity": 21,
+      "currentPrice": 4795.75
+    },
+    {
+      "symbol": "CSCO",
+      "quantity": 12,
+      "currentPrice": 1724.67
+    },
+    {
+      "symbol": "NVDA",
+      "quantity": 83,
+      "currentPrice": 1211.82
+    },
+    {
+      "symbol": "INTC",
+      "quantity": 81,
+      "currentPrice": 1467.77
+    },
+    {
+      "symbol": "IBM",
+      "quantity": 50,
+      "currentPrice": 3013.44
+    },
+    {
+      "symbol": "TSLA",
+      "quantity": 14,
+      "currentPrice": 1454.72
+    },
+    {
+      "symbol": "PFE",
+      "quantity": 66,
+      "currentPrice": 1849.52
+    },
+    {
+      "symbol": "WMT",
+      "quantity": 90,
+      "currentPrice": 521.49
+    },
+    {
+      "symbol": "ADBE",
+      "quantity": 79,
+      "currentPrice": 4337.8
+    },
+    {
+      "symbol": "ORCL",
+      "quantity": 34,
+      "currentPrice": 3694.72
+    },
+    {
+      "symbol": "AMD",
+      "quantity": 93,
+      "currentPrice": 1569.95
+    },
+    {
+      "symbol": "C",
+      "quantity": 6,
+      "currentPrice": 3913.35
+    },
+    {
+      "symbol": "INTC",
+      "quantity": 66,
+      "currentPrice": 3132.86
+    },
+    {
+      "symbol": "KO",
+      "quantity": 92,
+      "currentPrice": 2564.62
+    },
+    {
+      "symbol": "INTC",
+      "quantity": 72,
+      "currentPrice": 1526.49
+    },
+    {
+      "symbol": "TMUS",
+      "quantity": 31,
+      "currentPrice": 4373.1
+    },
+    {
+      "symbol": "MSFT",
+      "quantity": 37,
+      "currentPrice": 4227.93
+    },
+    {
+      "symbol": "BA",
+      "quantity": 74,
+      "currentPrice": 3033.07
+    },
+    {
+      "symbol": "PFE",
+      "quantity": 57,
+      "currentPrice": 4209.17
+    },
+    {
+      "symbol": "C",
+      "quantity": 71,
+      "currentPrice": 681.84
+    },
+    {
+      "symbol": "PFE",
+      "quantity": 3,
+      "currentPrice": 3196.84
+    },
+    {
+      "symbol": "BAC",
+      "quantity": 79,
+      "currentPrice": 1881.38
+    },
+    {
+      "symbol": "NFLX",
+      "quantity": 97,
+      "currentPrice": 4369.87
+    },
+    {
+      "symbol": "BA",
+      "quantity": 38,
+      "currentPrice": 97.24
+    },
+    {
+      "symbol": "FB",
+      "quantity": 27,
+      "currentPrice": 2269.47
+    },
+    {
+      "symbol": "FB",
+      "quantity": 67,
+      "currentPrice": 674.23
+    },
+    {
+      "symbol": "DIS",
+      "quantity": 47,
+      "currentPrice": 4220.08
+    },
+    {
+      "symbol": "MA",
+      "quantity": 18,
+      "currentPrice": 2188.29
+    },
+    {
+      "symbol": "CRM",
+      "quantity": 30,
+      "currentPrice": 872.96
+    },
+    {
+      "symbol": "NFLX",
+      "quantity": 95,
+      "currentPrice": 516.33
+    },
+    {
+      "symbol": "TMUS",
+      "quantity": 34,
+      "currentPrice": 848.3
+    },
+    {
+      "symbol": "CVX",
+      "quantity": 60,
+      "currentPrice": 375.75
+    },
+    {
+      "symbol": "IBM",
+      "quantity": 18,
+      "currentPrice": 2683.47
+    },
+    {
+      "symbol": "DIS",
+      "quantity": 3,
+      "currentPrice": 2981.48
+    },
+    {
+      "symbol": "DIS",
+      "quantity": 26,
+      "currentPrice": 1395.44
+    },
+    {
+      "symbol": "C",
+      "quantity": 48,
+      "currentPrice": 342.36
+    },
+    {
+      "symbol": "AMZN",
+      "quantity": 58,
+      "currentPrice": 2276.11
+    },
+    {
+      "symbol": "CSCO",
+      "quantity": 96,
+      "currentPrice": 3133.47
+    },
+    {
+      "symbol": "PFE",
+      "quantity": 34,
+      "currentPrice": 2818.68
+    },
+    {
+      "symbol": "AMD",
+      "quantity": 95,
+      "currentPrice": 2324.71
+    },
+    {
+      "symbol": "NFLX",
+      "quantity": 53,
+      "currentPrice": 2092.44
+    },
+    {
+      "symbol": "T",
+      "quantity": 5,
+      "currentPrice": 3846.57
+    },
+    {
+      "symbol": "ADBE",
+      "quantity": 88,
+      "currentPrice": 3828.01
+    },
+    {
+      "symbol": "BA",
+      "quantity": 40,
+      "currentPrice": 745.07
+    },
+    {
+      "symbol": "ORCL",
+      "quantity": 44,
+      "currentPrice": 4340.59
+    },
+    {
+      "symbol": "CVX",
+      "quantity": 85,
+      "currentPrice": 4829.07
+    },
+    {
+      "symbol": "MSFT",
+      "quantity": 80,
+      "currentPrice": 3457.24
+    },
+    {
+      "symbol": "TSLA",
+      "quantity": 31,
+      "currentPrice": 475.9
+    },
+    {
+      "symbol": "BA",
+      "quantity": 31,
+      "currentPrice": 4188.51
+    },
+    {
+      "symbol": "XOM",
+      "quantity": 11,
+      "currentPrice": 1690.83
+    },
+    {
+      "symbol": "BAC",
+      "quantity": 92,
+      "currentPrice": 1707.61
+    }
+  ]
+}

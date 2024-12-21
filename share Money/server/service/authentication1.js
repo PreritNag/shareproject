@@ -1,21 +1,30 @@
-const JWT=require("jsonwebtoken");
+const JWT = require("jsonwebtoken");
 
-const secret="mysecretkey";
+// Use environment variable for secret key (use a fallback for development)
+const secret = process.env.JWT_SECRET || "mysecretkey";
 
-function createTokenuser(user){
-    const payload={
-        _id:user._id,
-        email:user.email,
-        balance:user.balance,
-        name:user.name
+// Function to create a token for the user
+function createTokenuser(user) {
+    const payload = {
+        _id: user._id,
+        email: user.email,
+        balance: user.balance,
+        name: user.name,
     };
-    const token=JWT.sign(payload,secret);
+
+    // Set token expiration (e.g., 1 hour)
+    const token = JWT.sign(payload, secret, { expiresIn: '1h' });
     return token;
+}   
+
+// Function to validate the token
+function validateToken(token) {
+    try {
+        const payload = JWT.verify(token, secret);
+        return payload;
+    } catch (error) {
+        throw new Error('Invalid or expired token');
+    }
 }
 
-function validateToken(token){
-    const payload=JWT.verify(token,secret);
-    return payload;
-}
-
-module.exports={createTokenuser,validateToken};
+module.exports = { createTokenuser, validateToken };
