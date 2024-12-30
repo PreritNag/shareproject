@@ -43,9 +43,77 @@ const getStockData = async (symbol, date) => {
 };
 
 // Fetch stock data from an external source (e.g., Alpha Vantage)
+// const fetchExternalStockData = async (symbol, date) => {
+//   const API_KEY = process.env.ALPHA_VANTAGE_API_KEY;
+//   try {
+//     const response = await axios.get('https://www.alphavantage.co/query', {
+//       params: {
+//         function: 'TIME_SERIES_DAILY',
+//         symbol: symbol,
+//         apikey: API_KEY
+//       }
+//     });
+
+//     const timeSeries = response.data['Time Series (Daily)'];
+//     const lastRefreshed = response.data['Meta Data']['3. Last Refreshed'];
+
+//     // Check if data for the requested date exists
+//     if (!timeSeries || !timeSeries[date]) {
+//       console.log(`No data found for ${symbol} on ${date}. Last refreshed: ${lastRefreshed}`);
+
+//       // If the requested date is not available, fall back to the most recent available date
+//       const availableDates = Object.keys(timeSeries);
+//       const mostRecentDate = availableDates[0]; // The most recent date will be the first key
+
+//       console.log(`Falling back to the most recent available data for ${symbol} on ${mostRecentDate}`);
+
+//       // Use the data for the most recent date
+//       const dailyData = timeSeries[mostRecentDate];
+
+//       const stockData = {
+//         stockSymbol: symbol,
+//         date: new Date(mostRecentDate),
+//         openPrice: parseFloat(dailyData['1. open']),
+//         closePrice: parseFloat(dailyData['4. close']),
+//         highPrice: parseFloat(dailyData['2. high']),
+//         lowPrice: parseFloat(dailyData['3. low']),
+//         volume: parseInt(dailyData['5. volume']),
+//       };
+
+//       console.log('Fetched stock data:', stockData);
+
+//       return stockData;
+//     }
+
+//     // If data for the requested date is found, use it
+//     const dailyData = timeSeries[date];
+
+//     const stockData = {
+//       stockSymbol: symbol,
+//       date: new Date(date),
+//       openPrice: parseFloat(dailyData['1. open']),
+//       closePrice: parseFloat(dailyData['4. close']),
+//       highPrice: parseFloat(dailyData['2. high']),
+//       lowPrice: parseFloat(dailyData['3. low']),
+//       volume: parseInt(dailyData['5. volume']),
+//     };
+
+//     console.log('Fetched stock data:', stockData);
+
+//     return stockData;
+//   } catch (error) {
+//     console.error(`Error fetching external stock data for ${symbol} on ${date}:`, error.message);
+//     throw error;
+//   }
+// };
+
+
+// // Store stock data in the database
 const fetchExternalStockData = async (symbol, date) => {
   const API_KEY = process.env.ALPHA_VANTAGE_API_KEY;
+  
   try {
+    // First, attempt to fetch from Alpha Vantage
     const response = await axios.get('https://www.alphavantage.co/query', {
       params: {
         function: 'TIME_SERIES_DAILY',
@@ -56,20 +124,20 @@ const fetchExternalStockData = async (symbol, date) => {
 
     const timeSeries = response.data['Time Series (Daily)'];
     const lastRefreshed = response.data['Meta Data']['3. Last Refreshed'];
-
+    
     // Check if data for the requested date exists
     if (!timeSeries || !timeSeries[date]) {
       console.log(`No data found for ${symbol} on ${date}. Last refreshed: ${lastRefreshed}`);
-
+      
       // If the requested date is not available, fall back to the most recent available date
       const availableDates = Object.keys(timeSeries);
       const mostRecentDate = availableDates[0]; // The most recent date will be the first key
-
+      
       console.log(`Falling back to the most recent available data for ${symbol} on ${mostRecentDate}`);
-
+      
       // Use the data for the most recent date
       const dailyData = timeSeries[mostRecentDate];
-
+      
       const stockData = {
         stockSymbol: symbol,
         date: new Date(mostRecentDate),
@@ -79,15 +147,15 @@ const fetchExternalStockData = async (symbol, date) => {
         lowPrice: parseFloat(dailyData['3. low']),
         volume: parseInt(dailyData['5. volume']),
       };
-
+      
       console.log('Fetched stock data:', stockData);
-
+      
       return stockData;
     }
-
+    
     // If data for the requested date is found, use it
     const dailyData = timeSeries[date];
-
+    
     const stockData = {
       stockSymbol: symbol,
       date: new Date(date),
@@ -97,18 +165,37 @@ const fetchExternalStockData = async (symbol, date) => {
       lowPrice: parseFloat(dailyData['3. low']),
       volume: parseInt(dailyData['5. volume']),
     };
-
+    
     console.log('Fetched stock data:', stockData);
-
+    
     return stockData;
   } catch (error) {
-    console.error(`Error fetching external stock data for ${symbol} on ${date}:`, error.message);
-    throw error;
+    console.error(`Error fetching external stock data from Alpha Vantage for ${symbol} on ${date}:`, error.message);
+    console.log('Falling back to mock API...');
+    
+    // If Alpha Vantage fails, fall back to mock API
+    try {
+      const response = await axios.get('http://localhost:5002/api/stocks/data', {
+        params: {
+          symbol: symbol,
+          date: date
+        }
+      });
+      
+      if (response.data && response.data.stockData) {
+        const stockData = response.data.stockData;
+        console.log('Fetched stock data from mock API:', stockData);
+        return stockData;
+      } else {
+        throw new Error('No stock data returned from mock API');
+      }
+    } catch (mockApiError) {
+      console.error('Error fetching data from mock API:', mockApiError.message);
+      throw new Error('Failed to fetch stock data from both Alpha Vantage and mock API');
+    }
   }
 };
 
-
-// Store stock data in the database
 const storeStockData = async (data) => {
   try {
     // Validate required fields
@@ -130,7 +217,6 @@ const storeStockData = async (data) => {
     throw new Error(`Error saving stock data: ${error.message}`);
   }
 };
-
 // Fetch and store stock data, checking if it exists in DB, else fetch from external source
 const fetchAndStoreStockData = async (symbol, date) => {
   try {

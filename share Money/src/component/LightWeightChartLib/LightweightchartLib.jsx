@@ -2,14 +2,6 @@ import React, { useEffect, useRef, useState } from 'react';
 import { createChart } from 'lightweight-charts';
 import axios from 'axios';
 
-// Mock data for fallback
-const mockData = [
-  { time: 1672531200, open: 150, high: 155, low: 148, close: 152 },
-  { time: 1672534800, open: 152, high: 158, low: 151, close: 157 },
-  { time: 1672538400, open: 157, high: 160, low: 154, close: 159 },
-  { time: 1672542000, open: 159, high: 162, low: 158, close: 161 },
-];
-
 const LightweightchartLib = () => {
   const chartContainerRef = useRef();
   const candleSeriesRef = useRef();
@@ -18,48 +10,62 @@ const LightweightchartLib = () => {
   const [message, setMessage] = useState('');
   const [isLoading, setIsLoading] = useState(false);
 
-  // Transform data to lightweight-charts format
-  const transformStockData = (data) =>
-    data.map((entry) => ({
-      time: new Date(entry.date).getTime() / 1000, // Convert ISO string to UNIX timestamp
-      open: entry.open,
-      high: entry.high,
-      low: entry.low,
-      close: entry.close,
-    }));
+  // Define the transformStockData function
+  const transformStockData = (data) => {
+    return data
+      .map(item => {
+        if (item.time && item.open && item.high && item.low && item.close) {
+          return {
+            time: Math.floor(new Date(item.time).getTime() / 1000), // Ensure `time` is in seconds
+            open: parseFloat(item.open),
+            high: parseFloat(item.high),
+            low: parseFloat(item.low),
+            close: parseFloat(item.close),
+          };
+        } else {
+          console.error('Malformed item:', item); // Log problematic items
+          return null;
+        }
+      })
+      .filter(Boolean) // Remove any `null` values
+      .sort((a, b) => a.time - b.time); // Sort by time in ascending order
+  }; 
 
-  // Fetch stock data from MongoDB
+  let i=0;
+  // Fetch Stock Data
   const fetchStockData = async () => {
     setIsLoading(true);
-    try {
-      const response = await axios.get(`http://localhost:5000/stocks/${symbol}`);
-      const data = response.data;
+    try {   
+      const response = await axios.get(`http://localhost:5000/api/stocks/symbol/${symbol}`);
+      console.log('Fetched data:', response.data);
 
-      if (Array.isArray(data) && data.length > 0) {
+      const data = response.data['Time Series (Daily)'];
+      console.log('Time Series Data:', data);
+
+      if (data) {
         setMessage('');
-        setStockData(transformStockData(data));
+        const transformedData = transformStockData(data); // Use the transformStockData function
+        console.log('Transformed Data:', transformedData);
+
+        // Append new data to existing stock data (simulate real-time data)
+        setStockData(prevData => {
+          const updatedData = [...prevData, ...transformedData];
+          // Keep only the latest 10 data points
+          return updatedData.slice(-10); // Keep last 10 entries
+        });
       } else {
         setMessage('No data available for the selected stock.');
         setStockData([]);
       }
     } catch (error) {
       console.error('Error fetching stock data:', error.message);
-      const userConfirmed = window.confirm(
-        'Error fetching stock data. Would you like to display mock data instead?'
-      );
-      if (userConfirmed) {
-        setStockData(mockData);
-        setMessage('Displaying mock data.');
-      } else {
-        setStockData([]);
-        setMessage('Stock data could not be loaded.');
-      }
+      setMessage('Stock data could not be loaded. Please try again.');
+      setStockData([]);
     } finally {
       setIsLoading(false);
     }
   };
 
-  // Initialize the chart
   useEffect(() => {
     const chart = createChart(chartContainerRef.current, {
       width: chartContainerRef.current.offsetWidth,
@@ -81,23 +87,19 @@ const LightweightchartLib = () => {
     });
     candleSeriesRef.current = candleSeries;
 
-    fetchStockData();
+    // Start fetching data every second
+    const intervalId = setInterval(fetchStockData, 1000); // Fetch every second
 
-    // Resize chart on window resize
-    const handleResize = () => {
-      chart.resize(chartContainerRef.current.offsetWidth, 704);
-    };
-    window.addEventListener('resize', handleResize);
-
+    // Clean up interval on unmount
     return () => {
-      window.removeEventListener('resize', handleResize);
+      clearInterval(intervalId);
       chart.remove();
     };
   }, [symbol]);
 
-  // Update the chart data
   useEffect(() => {
     if (stockData.length && candleSeriesRef.current) {
+      console.log('Updating chart with stock data:', stockData);
       candleSeriesRef.current.setData(stockData);
     }
   }, [stockData]);
@@ -128,6 +130,14 @@ const LightweightchartLib = () => {
       <div>{isLoading && <p>Loading...</p>}</div>
       <div>{message && <p className="text-red-500 mb-4">{message}</p>}</div>
       <div ref={chartContainerRef} className="w-full h-96" />
+      {message && !isLoading && (
+        <button
+          onClick={fetchStockData}
+          className="mt-4 px-4 py-2 bg-red-500 text-white rounded"
+        >
+          Retry
+        </button>
+      )}
     </div>
   );
 };

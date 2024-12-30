@@ -19,7 +19,7 @@ const TradingApp = () => {
         setPrice(response.data.price);
       } catch (error) {
         console.error('Error fetching stock price:', error);
-      }
+      } 
     };
 
     fetchStockPrice();
