@@ -207,6 +207,82 @@ const getStockData = async (symbol, date, interval = '1min') => {
   }
 };
 
+
+//price
+// Function to fetch stock data from Alpha Vantage
+const fetchRealTimeStockData = async (symbol, date, interval = '1min') => {
+  try {
+    const response = await axios.get('https://www.alphavantage.co/query', {
+      params: {
+        function: 'TIME_SERIES_INTRADAY',
+        symbol: symbol,
+        interval: interval,
+        apikey: API_KEY,
+      },
+    });
+
+    const timeSeries = response.data['Time Series (Intraday)'];
+    if (!timeSeries) {
+      throw new Error(`No real-time data available for symbol ${symbol} on ${date}`);
+    }
+
+    const formattedDate = new Date(date).toISOString();
+    const closestTime = Object.keys(timeSeries).find((time) =>
+      time.startsWith(formattedDate.substring(0, 10))
+    );
+
+    if (!closestTime) {
+      throw new Error(`No stock data found for symbol ${symbol} on ${formattedDate}`);
+    }
+
+    const latestData = timeSeries[closestTime];
+    return {
+      stockSymbol: symbol,
+      date: new Date(closestTime),
+      openPrice: parseFloat(latestData['1. open']),
+      closePrice: parseFloat(latestData['4. close']),
+      highPrice: parseFloat(latestData['2. high']),
+      lowPrice: parseFloat(latestData['3. low']),
+      volume: parseInt(latestData['5. volume']),
+    };
+  } catch (error) {
+    console.error(`Real-time API error for ${symbol}: ${error.message}`);
+    throw error; // Propagate error to fallback logic
+  }
+};
+
+// Function to fetch mock stock data
+const fetchMockStockData = async (symbol) => {
+  try {
+    console.log(`Fetching mock data for symbol: ${symbol}`);
+    const mockResponse = await axios.get(mockApiUrl);
+
+    if (mockResponse.data && mockResponse.data[symbol]) {
+      const mockStockData = mockResponse.data[symbol];
+      return {
+        stockSymbol: symbol,
+        lastRefreshed: mockStockData['Meta Data']['3. Last Refreshed'],
+        timeSeries: mockStockData['Time Series (Daily)'],
+      };
+    } else {
+      throw new Error(`Mock API: Stock data for ${symbol} not found`);
+    }
+  } catch (error) {
+    console.error(`Mock API error for ${symbol}: ${error.message}`);
+    throw new Error(`Mock API failed for symbol ${symbol}`);
+  }
+};
+
+// Orchestrator function
+const getStockDataOrMock = async (symbol, date, interval = '1min') => {
+  try {
+    return await fetchRealTimeStockData(symbol, date, interval);
+  } catch (realTimeError) {
+    console.error(`Falling back to mock API for symbol: ${symbol}`);
+    return await fetchMockStockData(symbol);
+  }
+};
+
 // Function to get historical daily stock data from Alpha Vantage or Mock API
 const getHistoricalStockData = async (symbol) => {
   try {
@@ -248,4 +324,4 @@ const getHistoricalStockData = async (symbol) => {
   }
 };
 
-module.exports = { getStockData, getHistoricalStockData };
+module.exports = { getStockData, getHistoricalStockData ,getStockDataOrMock};

@@ -1,6 +1,6 @@
 const express = require('express');
 const axios = require('axios');  // We will use axios to make HTTP requests
-const { getStockData, getHistoricalStockData } = require('../Stockdata/Stockdata');  // Import the function to fetch stock data
+const { getStockData, getHistoricalStockData ,getStockDataOrMock} = require('../Stockdata/Stockdata');  // Import the function to fetch stock data
 const StockData = require('../models/Stock');  // Import the StockData model
 const router = express.Router();
 const { tradeStock, getPortfolio, fetchAndStoreStockDataController } = require('../controller/stockController'); // Import the new function
@@ -22,42 +22,21 @@ router.get('/All', async (req, res) => {
 //[1] Error from mock API: mockResponse.data.find is not a function
 //[1] Error fetching stock price: Both Alpha Vantage and mock APIs failed for symbol AAPL  
 router.get('/price', async (req, res) => {
-  const { symbol } = req.query; // Extract the stock symbol from query parameters
+  const { symbol, date } = req.query;
+
   if (!symbol) {
-    return res.status(400).json({ message: 'Symbol is required' }); // Return error if symbol is not provided
+    return res.status(400).json({ message: 'Symbol is required' });
   }
 
   try {
-    const stockData = await getStockData(symbol); // Fetch real-time data
-    if (!stockData) {
-      console.log(`No data found for symbol: ${symbol}. Falling back to mock data.`);
-      // Fallback to mock data if real data is not found
-      const mockResponse = {
-        stocks: [
-          { symbol: 'AAPL', price: 150 }, // Example mock data
-          // other mock data can be added here
-        ]
-      };
-
-      // Ensure mockResponse.stocks is an array
-      if (Array.isArray(mockResponse.stocks)) {
-        const mockData = mockResponse.stocks.find(stock => stock.symbol === symbol);
-        if (mockData) {
-          return res.json(mockData); // Return mock data if found
-        } else {
-          return res.status(404).json({ message: 'Mock data not found for symbol.' });
-        }
-      } else {
-        return res.status(500).json({ message: 'Mock response is not valid.' });
-      }
-    }
-
-    res.json(stockData); // Send the fetched stock data as a JSON response
+    const stockData = await getStockDataOrMock(symbol, date); // Use the new orchestrator function
+    res.json(stockData);
   } catch (error) {
-    console.error('Error fetching stock price:', error.message); // Log the error message
-    res.status(500).json({ message: 'Error fetching stock data.' }); // Return error response
+    console.error(`Error fetching stock data: ${error.message}`);
+    res.status(500).json({ message: 'Failed to fetch stock data.' });
   }
 });
+
 
 
 
